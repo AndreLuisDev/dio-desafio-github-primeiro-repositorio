@@ -1,0 +1,114 @@
+			Blocos responsáveis pelo VERSIONAMENTO DO SOFTWARE
+
+# BLOBS
+	"Tipo de arquivo do GIT"
+	CONTÉM UM IDENTIFICADOR ALFANUMÉRICO DE 7 DÍGITOS
+	****Também possuirá o hash IDENTIFICADOR40 dígitos de seus metadados
+	
+	Ao executar:		
+	
+	echo 'conteudo' [output no terminal, printa no terminal]
+	
+	echo 'conteudo' | git hash-object --stdin [função do GIT]
+	
+		[passa a string para uma função do GIT chamada hash-object]
+		[flag --stdin -> a função hash espera receber um arquivo tipo texto]
+	
+	A FUNÇÃO hash-object vai devolver o arquivo criptografado em SHA1
+	> IDENTIFICADOR40_A
+
+
+	*** Fazer a mesma coisa sem usar o GIT
+	
+	echo -e 'conteudo' | openssl sha1 
+	
+	> IDENTIFICADOR40_B [gera outro conjunto de caracteres]
+
+
+	**** Pois os objetos internos do GIT
+		manipulam esses arquivos - chamados de BLOBS
+			O ARQUIVO FICA GUARDADO DENTRO DESSE OBJETO
+				o qual contém metadaos em um ESTRUTURA BÁSICA:
+					-TIPO do objeto
+					-TAMANHO do arquivo
+					-\0
+					-'conteudo' do arquivo [string]
+	
+	****OS ARQUIVOS METADATADOS são gerados quando se executa a [função has-objetc]
+
+
+	**** Para gerar o mesmo IDENTIFICADOR40_A, ao executar a função:
+		-> com a strig referente ao BLOB do arquivo original, vai ser gerado
+			diretamente o mesmo IDENTIFICADOR40_A
+	Assim: 
+	
+	echo -e 'blob 9\0conteudo' | openssl sha1
+	>IDENTIFICADOR40_A
+	
+	É o mesmo gerado quando se executa a função:
+	 
+	echo 'conteudo' | git hash-object --stdin
+
+
+# TREES
+
+	CONTÉM UM IDENTIFICADOR ALFANUMÉRICO DE 7 DÍGITOS
+	Armazenam tipos de BLOBS diferentes com METADADOS
+	
+	****Também possuirá o hash IDENTIFICADOR40 dígitos de seus metadados
+	
+		Estrutura
+			Tipo do Objeto [TREE]
+			Tamanho <tamanho>
+			\0
+			blob sa3d8s text.txt
+			
+	****contém o nome do arquivo
+			
+		A estrutura TREE pode apontar para outra TREE ou diferentes BLOBS
+			(Similar a diretórios apontando para outros diretórios recursivos(subpastas))
+		
+		****BLOBS contêm o SHA1 dos arquivos
+		****TREES apontam para esses BLOBs incriptados
+			que conterão o SHA1 incriptado dessas àrvores (METADADOS DE TODOS OS BLOB/TREE)
+	
+		então, alterando um arquivo, o SHA1 do BLOB será alterado, que porconseguinte alterará o SHA1 da árvore
+	
+		***AO MUDAR UMA VÍRGULA, ALTERARÁ A INCRIPTAÇÃO DA ÁRVORE
+
+
+# COMMITS
+
+	****Também possuirá o hash IDENTIFICADOR40 dígitos de seus metadados
+	CONTÉM UM IDENTIFICADOR ALFANUMÉRICO DE 7 DÍGITOS
+	Aponta para BLOBS/TRESS METADATADOS, com a seguinte Estrutura:
+	
+			Tipo do Objeto [COMMIT]
+	
+			Tamanho <tamanho>
+	
+			tree s4a5sq1
+	
+			parente a98acq1 [está apontando para o último COMMIT feito anteriormente]
+			
+			autor "andré"
+	
+			mensagem "inicia.." [explica e dá significado à alteração feita]
+	
+			timestamp [data/hora criação]
+
+
+		*** um COMMIT refere-se unicamente a um código fonte dentro de uma timestamp
+			pois qualquer alteração está relacionada a um novo COMMIT e seu respectivo autor
+
+GIT - Sistema Distribuído Seguro
+
+	Meus códigos em um repositório "hosteado" na NUVEM (GITHUB)
+		Os códigos representam o estado final do meu software
+			versões recentes
+		Se em um repositório que pode ser compartilhado por "mainteners"
+			possuirão uma versão regular do software em suas próprias máquinas
+				Para futuras perdas no host, haverão versões atualizadas disponíveis e confiáveis
+				por conta da confiabilidade de incriptação que o GIT proporciona a qualquer alteração
+					feita em um arquivo - está associado a um COMMIT
+

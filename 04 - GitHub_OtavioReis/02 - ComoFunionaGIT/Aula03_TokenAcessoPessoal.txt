@@ -1,0 +1,37 @@
+# TOKEN ACESSO PESSOAL
+
+	Antes de usar o TOKEN, vala ressaltar que a chave SSH é mais prática para empurrar os arquivos pro GitHub
+	
+	É gerado um arquivo no GitHub
+		No momento dos COMMIT'S 
+			será solicitado o usuário e o TOKEN
+
+ 	***Onde configurar o TOKEN
+	Develops settings
+		Personal acess tokens
+	
+		pode ter um tempo de expiração(necessario criar outro)
+		necessário colocar título
+			Generation Token
+
+	**********COPIAR E COLAR EM UM LOCAL SEGURO***********
+
+	o TOKEN não será mostrado novamente!!!!
+
+IR ao terminal Git Bash
+
+$ git clone [colar o link https do <Code> do GitHub]
+
+# Git Credential Core 
+	faz as autenticações por meio de credenciais SSH e Token
+	Uma vez salvo a operação na máquina para um novo host (repositorio que quero Clonar de diferentes autores)
+		a "sessão" é salva para minha máquina, sem a necessidade de recorrentes autenticações
+
+	Copia e cola o Token que havia sido gerado no site do GitHub.
+
+	# necessário setar a url do repositorio que se quer "EMPURRAR" via TOKEN
+		$ git remote set-url origin "https://AndreLuisDev@github.com/AndreLuisDev/livro-receitas.git
+
+
+
+

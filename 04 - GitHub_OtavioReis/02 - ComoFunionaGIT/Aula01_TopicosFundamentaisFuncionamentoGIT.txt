@@ -1,0 +1,51 @@
+# SHA1
+	Secure Hash Algorithm
+
+	ALGORITMO DE INCRIPTAÇÃO - CRIPTOGRAFIA
+		Conjunto de funções Hash criptográficas
+		Projetado pela NSA - Agencial de Segurança Nacional EUA
+			Pega-se o arquivo e o embaralha de forma específica
+
+	Ex:	Em um arquivo de texto, "roda-se" o SHA, para ser gerado IDENTIFICADOR40
+		Alterando uma "," --> gera-se outro conjunto IDENTIFICADOR40
+		Desfazendo a alteração e rodando o SHA novamente, o mesmo IDENTIFICADOR40 será gerado
+
+	Ex:	echo "ola mundo" | openss1 sha1
+		A string é encaminhada para ser incriptada pelo SHA1 e é gerado o IDENTIFICADOR40
+		reposta:
+			> (stdin)= IDENTIFICADOR40
+	
+
+	# NA PRÁTICA - Geração IDENTIFICADOR40
+	
+	Estando na pasta onde se encontra o arquivo para ser incriptado
+	Botão direito mouse, Git Bash Here - vai ser aberto o Git CMD com o caminho já selecionado
+		estará na pasta para rodar o SHA em um arquivo de interesse
+
+	 Ex: 
+	/Documents/EngenhariaSoftwareProgramacao/BootCampTakeBlipWebDeveloper/04 - GitHub_OtavioReis/02 - ComoFunionaGIT
+	
+	~ executar o comando:  
+
+	openssl sha1 Aula01_TopicosFundamentaisFuncionamentoGIT.txt
+	IDENTIFICADOR40_A -> c38ead3c2540f9086ed3aa156c799f8e744e033c
+
+	# Fiz uma alteração no arquivo.txt
+
+	~ executar o comando:  
+
+	openssl sha1 Aula01_TopicosFundamentaisFuncionamentoGIT.txt	
+	IDENTIFICADOR40_B -  71208efee4e3aa3f56a4ea1c17d051c63067c770
+
+		Se eu alterar para para o mesmo conteúdo do arquivo anterior, que resultou na primeira chave
+			os mesmos 40 caracteres serão gerados
+
+		Isso significa que cada chave está atrelada a um único tipo de arquivo(um único conteúdo)
+
+		Qualquer alteração feita, uma outra chave é associada na CRIPTOGRAFIA do meu ALGORITMO.
+			ou seja, novas alterações no ALGORITMO - gerarão novos arquivos criptografados,
+				RESULTANDO EM UM CONTROLE DE VERSÃO DO MEU PROGRAMA, sendo possível
+					acompanhar a evolução das linhas de códigos/alterações
+
+	O GIT gera IDENTIFICADOR40 para OBJETOS INTERNOS do GIT
+		chamados de OBJETOS FUNDAMENTAIS

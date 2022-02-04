@@ -1,0 +1,28 @@
+# PILHAS
+
+	Coleção de elementos
+	O acesso ao itens das pilhas são RESTRITOS
+		Permite-se o acesso somente a um item de dado armazenado
+			somente um item pode ser lido ou removido por vez
+				(imaginar uma pilha da dados mesmo!)
+# LIFO ou UEPS
+	
+	Last in First Out
+		O último que entrou é o primeiro a sair
+	Último Entra Primeiro Sair
+		O primeiro elemento a ser retirado
+		é o último que tiver sido inserido
+	"steck" - empilhar
+		Num empilhamento, o último inserido é o primeiro a sair
+			(senão a pilha caí!)
+	
+# FIFO ou PEPS
+
+	First in First Out
+		O primeiro que entrou é o primeiro a sair
+	Primeiro Entra Primeiro Sair
+		O primeiro elemento a ser retirado
+		é o primeiro que tiver sido inserido
+	"steck" - empilhar
+		Num empilhamento, o primeiro inserido é o primeiro a sair
+			

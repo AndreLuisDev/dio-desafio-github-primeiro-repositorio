@@ -1,0 +1,35 @@
+#TIPO DE DADOS
+
+	Inteiro
+	Real
+	Alfanuméricos (Caracteres numeros e letras)
+	Lógico (T or F)
+
+# Expressões com constantes e/ou com variável
+
+	Utilizado na atribuição de valor para a VARIÁVEL ou Constante
+
+
+nome = "José da Silva"
+nome<-- "José da Silva" [pseudocodigo]
+
+media=(nota1+nota2)/2
+
+A = 2
+	estou atribuindo valor de 2 para A
+
+X == Y
+
+	sinal de igualdade para a CODIFICAÇÃO (x é de fato igual a y)
+
+Diferente
+	!= ou <>
+
+
+#TOMADA DE DECISÃO
+
+São responsáveis por 60% da programação!!!!
+	
+	SE -> tomada de decisão
+
+

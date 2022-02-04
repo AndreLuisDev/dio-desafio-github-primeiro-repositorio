@@ -1,0 +1,90 @@
+# Sincronização das Versões Local e Remoto do GIT
+
+	Comandos a serem executadas para igualar os conteúdos dos repositórios:
+		
+# Ambiente de desenvolvimento
+
+	Minha Máquina Local
+	Versão da minha máquina
+	Composto:
+
+	Working Directory e Staging Area
+		
+		Estados dos arquivos serão:
+
+			Untracked, Unmodified, Modified	e Staged	
+		
+	Staging Area e Local Repository
+		
+		Estados dos arquivos será
+
+			Staged
+
+			Quando é feito o COMMIT
+			Os arquivos ficarão aqui
+			Pode ser empurrado "push" para o Servidor Remoto [GitHub]
+			Todos os arquivoos do Repositório Local devem estar commitados!!!
+
+# Repositorio Remoto
+
+	Sistema distribuído - versão GitHub
+
+# COMANDOS
+	
+	$ mkdir receitas
+	
+	$ git status
+
+	mostrar os estados do arquivos
+	working tree clean ["Árvore de Trabalho limpa - 
+				Working Directory limpo sem alterações para serem feitas]
+
+	*** Vale ressaltar que é importante manter o repositório de trabalho bem organizado
+		Nesse sentido, arquivos no formato .md (marcação), SE ESTIVEREM FORA DE PASTAS,
+			serão mostrados de maneira GRÁFICA no GitHub.
+	Normalmente esse arquivos .md são colocados por padrão na forma README.md (leia-me)
+		Um arquivo que é autoexplicativo, instruindo o intuito do repositório "empurrado" para o GitHub
+
+	# mover arquivo do repositorio atual para:
+		mv strogonoff.md ./receitas/
+
+	$ git add strogonoff.md receitas/
+
+	$ git status
+		mostra que os arquivos foram para o estado Staged
+		Mas caso queira tirar os arquivos desse estado, jogando para Unstaged
+		executar:
+			$ git restore --staged <file>
+
+	$ git commit -m "cria pasta receitas, move arquivo para receitas"
+
+		[master 7ce9a15] cria pasta receitas, move arquivo para receitas
+ 		1 file changed, 11 insertions(+), 11 deletions(-)
+ 		rename strogonoff.md => receitas/strogonoff.md (100%)
+
+
+	$ echo > README.md
+		cria o arquivo que ficará de Index (capa) - referencia para que ver o repositorio
+
+	# o arquivo está Untracked e precisa ser movida para Staged
+
+	$ git add *
+		todos os arquivos do Working Directory são movidos para Staged para serem commitados!!!
+
+	# $ git status
+	On branch master
+	Changes to be committed:
+ 	(use "git restore --staged <file>..." to unstage)
+   	new file:   README.md
+
+		**** MOSTRA AS MUDANÇAS PARA SEREM COMMITADAS [PRONTAS]
+	
+	$ git commit -m "adiciona index" [adiciona o README.md que será a capa do Livro de Receitas]
+
+	[master dcee903] adiciona index
+ 	1 file changed, 5 insertions(+)
+ 	create mode 100644 README.md
+
+
+
+

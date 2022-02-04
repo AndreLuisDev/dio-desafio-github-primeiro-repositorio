@@ -1,0 +1,8 @@
+#Portugol
+	
+	Serve parar criar um pseudocógido
+	Forma estruturada, escrita em português SIMPLES/INTUITIVA
+	Pensar na solução sem antes pensar na forma de como criar a solução computacional
+	
+
+	

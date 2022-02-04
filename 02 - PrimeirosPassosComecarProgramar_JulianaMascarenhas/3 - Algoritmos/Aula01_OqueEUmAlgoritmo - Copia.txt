@@ -1,0 +1,24 @@
+# O computador
+	É uma excelente ferramenta que otimiza nossos esforços
+		Reduz o trabalho de raciocínio/cálculos
+		Ajuda-nos na organização de ideias, compilando-as
+			todas em um mesmo local
+	No entanto, o COMPUTADOR não opera sozinho
+		Ele precisa da INSERÇÃO DE DADOS
+			de um sequência de instruções
+			as quais nos ajudarão a solucionar determinada questão
+		
+	# ALGORITMO
+		Portanto é o que o computador executa para resultar ao homem
+			valor de interesse, solucionamento de situações
+		É uma sequencia de instruções bem definidas
+			Inseridas no computador e simultaneamente entendida pelo homem
+			LINGUAGEM DE PROGRAMÁ-LO = PROGRAMAÇÃO
+		Deve ser preciso, coeso, bem detalhadas, e prever situações alternativas
+			É executado em um sequência lógica
+			Otimiza o pensar humano e sistematiza-o
+			Código deve ser limpo para evitar dados ambíguos, com erros
+				ou que cause indecisões e erros de decisão para o COMPUTADOR
+		
+		- Está presenta nas ações do nosso cotidiano
+			Fazer um café, trocar um lampada, ir ao trabalho

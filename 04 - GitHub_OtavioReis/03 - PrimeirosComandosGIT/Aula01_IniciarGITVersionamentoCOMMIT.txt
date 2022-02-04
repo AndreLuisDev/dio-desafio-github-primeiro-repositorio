@@ -1,0 +1,63 @@
+# git init
+
+	iniciar o repositorio do git
+	
+git add
+	
+	mover arquivos, iniciar versionamentos
+	
+git commit
+	
+	criar COMMIT
+
+# Git Bash Here a partir do ponto da navegação do Windows
+	em que se deseja criar o COMMIT
+	navegar pelo terminal até a pasta em que se deseja iniciar o GIT
+
+	$ cd workspace/livro-receitas
+	
+	$ git init [inicia o processo] [cria pasta oculta .git] [manipulado pelo GIT]
+	
+	# para visualizar a pasta oculta
+	$ ls -a
+		./ ../ .git/
+	
+	$ cd .git
+	$ ls
+	$ HEAD config description hooks/ info/ objects/ refs/
+		[estrutura de pastas do GIT]
+	
+	# antes de iniciar os COMMIT
+		é necessário configurar o email e usuário (autor) para os arquivos do GIT
+	# podem ser criados pontualmente para cada arquivo, ou de maneira global (set default) do GIT
+
+	$ git config --global user.email "*******@alunos.unicesumar.edu.br"
+	$ git config --global user.name A*******Dev
+
+
+	# criar um arquivo Markdown (tipo html) [extensão .md]
+		estrutura simples/intuitiva para organização do texto
+		Para README.md
+			Esse arquivo tem como o função dar um prévia do que é o Repositório no GitHub
+	
+	$ git add *
+	
+	$ git commit -m "mensagem referente a alteração feita em um COMMIT"
+		a mensagem entre aspas é eu quem defino - é uma referência
+	
+	$ [master (root-commit) 878d648] mensagem referente a alteração feita em um COMMIT
+	  1 file changed, 27 insertions(+)
+	  create mode 100644 strogonoff.md
+	
+	Primeiros caracteres do SHA1 878d648, identificando o commit
+
+PASSA A PASSO
+
+	$ git init
+	$ git add *
+	$ git commit -m "xxxx"
+
+
+
+
+​	

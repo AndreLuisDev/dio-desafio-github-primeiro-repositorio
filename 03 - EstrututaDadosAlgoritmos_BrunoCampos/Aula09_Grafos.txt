@@ -1,0 +1,16 @@
+# GRAFOS
+	
+	Permitem programar a RELAÇÃO DE OBJETOS
+	
+	OBJETOS
+		VÉRTICES ou NÓS do GRAFO
+			são as posições onde os dados serão manipulados
+			Estrutura não linear
+			O relacionamento dos objetos
+				vértices e arestas
+
+			O programa pode chamar um OBJETO de ou em qualquer posição
+				para frente, para trás, diagonal, vertical, horizontal	
+		
+
+	Usados em jogos, IA - estrutura complexa****

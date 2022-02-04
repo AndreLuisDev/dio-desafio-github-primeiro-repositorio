@@ -1,0 +1,4 @@
+# FILAS
+
+	O primeiro a ser removido é o primeiro que entrou na fila
+	Similar ao FIFO

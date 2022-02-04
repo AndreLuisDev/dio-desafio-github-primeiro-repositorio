@@ -1,0 +1,60 @@
+# Primeiros Computadores
+
+# Konrad Zuse 1938
+	Z1 - Possuia algumas unidades básicas
+		1000 válvulas
+		Memória
+		Controladora
+		Dispositivo p/ cálculo
+		
+	Z2
+		Relés e núcleo de Ferrite
+	Z3		
+		3 a 4 seg opr/seg
+		5 seg p/ multiplicações
+		Destruído bombardeio
+	Z4 
+		Desenvolvido e escondido antes de finalizar
+		Pós guerra continou e finalizou a versão 4
+		Criou uma empresa na Suiça para a construção desse computador
+			a qual foi absorvida pela empresa Siemens
+
+# IBM + Harvad
+
+	Projeto do computador MARK I
+		Inovador
+		Realizar modicações modo dinâmico
+		Determinar o melhor algoritmo
+			realizar determinada operação (unidade de decisão)
+		Unidade memória de instruções separadas dos dados (codificação)
+
+# Durante a Guerra Mundial
+	Fomentou-se avanços na tecnologia de computar
+	Nesse contexto tecnológico, criou-se o PRIMEIRO COMPUTADOR
+	que executava operações por meio da leitura de comandos
+	ENIAC (EUA)
+		Eletronic Numeral Integrator and Computer
+		24 metros comprimento 30 toneladas 18 mil válvulas
+		O ENIAC era programável pela movimentação de cabos e conectores
+			Não tinha o conceito de programa armazenado
+				O programa era inserido, após era executado com os dados inseridos
+				(80 mulheres para codificação)
+
+
+# Von Newmann
+
+	EDVAC - Eletronic Discrete Variable Automatic Computer
+	Versão melhora do ENIAC
+		continha a idea do PROGRAMA ARMEZENADO
+	Foi usado a partir de 1954 e o ENIAC desligado em 1955
+
+# Alan Turing participou na construção
+	
+	COLOSSUS 1943
+	programado pela inserção de fios e cabos
+	processava 25 mil char/seg
+	Foi finalizado depois do MARK I	
+		
+
+		
+	

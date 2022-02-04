@@ -1,0 +1,62 @@
+# Sofwtare para rodar Linux no Ubuntu
+	Subsistema do Windows para Linux WSL
+		https://docs.microsoft.com/pt-br/windows/wsl/install
+
+# Windows			# Linux
+
+- Listar o local onde está e lista todos os diretórios atuais
+	dir			ls
+
+- Entrar pasta específica / subir um nível - CHANGE DIRECTORY
+	É necessário especificar qual pasta. Ex: / ou etc
+	cd /			cd etc
+	cd Windows
+- Voltar
+	cd ..			cd ..
+
+- limpar a tela CLEAR SCREEN
+	cls			clear ou CTRL + L
+
+- autocompletar o nome de um arquivo ou diretório
+	TAB			TAB
+
+- criar um diretório MAKE DIRECTORY em C:\
+	mkdir workspace		mkdir worspace
+
+- silence on sucess
+	ao dar um comando e nada aparecer, provavelmente êxito
+
+- obter privilégio Super usuário
+				sudo su + senha --> usuário root
+
+- criar arquivo pelo terminal sem a necessidade de navegar pelo Windows
+	echo ----- 		echo -----
+		vai printar na tela o que foi escrito em -----
+
+	echo >			echo >
+		redirecionador de fluxo 
+			[pega a saída da função echo e retornar em um tipo de arquivo]
+
+	echo > hello.txt	echo > hello.txt
+		arquivo .txt criado no diretório Windows
+		Já há um arquivo com esse nome no diretório?
+
+- deletar arquivos de um repositório
+	del workspace
+		S/N?
+	deleta apenas os arquivos contidos no workspace
+	No windows há diferença entre deletar diretório e arquivos
+
+- seta para cima
+	navega no histórico de comando do terminal
+	
+- remover o repositório + arquivos REMOVE DIRECTORY
+	rmdir workspace /S /Q	rm -rf workspace/
+				-r (para infinitas pastas subsequentes - herança) - RECURSIVO
+				-f para não ser solicitado confirmação da operação - FORCE
+			
+
+	
+
+	
+

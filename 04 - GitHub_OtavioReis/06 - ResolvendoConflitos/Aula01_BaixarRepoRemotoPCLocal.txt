@@ -1,0 +1,12 @@
+# GIT CLONE
+
+	In <Code>
+
+	# Clonar pelo terminal 
+
+	Copiar link https://github.com/AndreLuisDev/livro-receitas.git
+
+	# Estar em um repositorio em que se deseja salvar o repo que irá clonar
+	
+	$ git clone https://github.com/AndreLuisDev/livro-receitas.git
+		#irá salvar onde você estava [/C/workspace/]

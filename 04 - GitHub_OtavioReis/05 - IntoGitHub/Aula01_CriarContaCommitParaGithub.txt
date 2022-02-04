@@ -1,0 +1,78 @@
+# CRIAR CONTA GITHUB
+
+	Sign Up ou Criar conta no site do GitHub
+
+# CADASTRAR USERNAME/ EMAIL GIT BASH
+
+	# o GIT for Windows/Linux/MAC são encontrados no site do provedor
+
+# PASSO A PASSO
+
+	1 - Verificar seu user.name e email cadastrados no GIT BASH
+
+		$ git config --list
+
+	2 - Caso queira alterar
+
+		$ git config --global --unset user.email
+		$ git config --global --unset user.name
+
+		$ git config --list
+			usuário e email ficaram status = FALSE
+
+	3 - Cadastrar o mesmo user.name e e-mail no GitBash
+		iguais aos do GitHub (website - Servidor Remoto)
+
+		$ git config --global user.email "email"
+		$ git config --global user.name "name"
+
+	- Quando fizer essa alteração de usuário e email
+		os COMMIT feitos com dados diferentes de usuário e email anteriores
+		serão mostrados COMMIT's
+			sem a foto do perfil
+			pois o Git não os associará mais a um usuário e senha ativo no GitHub
+
+	- O email e username ficarão iguais tanto no GitBash(pc local) e o GitHub(servidor)
+-----------------------------------------------------------------------------------
+
+# COMMIT para GitHub - EMPURRAR - PUSH
+
+	- empurar a versão local para o versão remota
+	- primeiro é necessário cadastrar o caminho https para onde irá meus arquivos no GitHub
+
+	$ git remote add origin https://github.com/AndreLuisDev/livro-receitas.git
+
+		# origin - é apenas um apelido para o endereço https//
+			para que eu não precise digitá-lo a todo momento
+
+	$ git remote -v
+	origin  https://github.com/AndreLuisDev/livro-receitas.git (fetch)
+	origin  https://github.com/AndreLuisDev/livro-receitas.git (push)
+
+		# -v para listar as listas de repositórios remotos cadastradas
+
+	# após feito o cadastramento do repositório que foi criado no GitHub( o https//)
+		é necessário "empurar para lá"
+
+	$ git push origin master
+
+	# esse procedimento para a Versão 2.35 do Git solicita username e senha
+			não faz o push pro GitHub
+	# para a nova versão, o PUSH é feito por Token ou SSH
+
+--------------------------------------------------------------------------------
+	Procedimento novo via Token:
+
+		
+	# necessário setar a url do repositorio que se quer "EMPURRAR"
+		$ git remote set-url origin "https://AndreLuisDev@github.com/AndreLuisDev/livro-receitas.git"
+		$ git remote add origin https://github.com/AndreLuisDev/livro-receitas.git
+		$ git branch -M main
+		$ git push -u origin main
+
+		**** A autenticação será direta pelo Token previamente criado no GitHub
+
+--------------------------------------------------------------------------------------------------------
+
+	Até resolver o COMMIT via SSH o passo anterior deve sempre ser feito
+		- a autentica é a chave TOKEN

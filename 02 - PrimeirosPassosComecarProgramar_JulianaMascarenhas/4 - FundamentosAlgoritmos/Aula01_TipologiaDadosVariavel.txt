@@ -1,0 +1,63 @@
+# Uma vez que o PC precisa de dados e instruções
+	para executar uma programação que resolve uma solução
+	é necessário inserir esses no seu código fonte
+
+# INFORMAÇÃO
+
+		Composta por DADOS e as INSTRUÇÕES
+
+	TIPOS DADOS 
+
+	NUMÉRICO
+		inteiro e reais
+		*caso se aloquem tipo de dados desnecessários
+			para determinadas variáveis, poderá estar ocupando memória
+			isso não otimiza o processamento do COMPUTADOR
+	CARACTER
+		ALFANUMÉRICO
+		símbolos, números, letras
+		string, char -> depende da linguaguem
+	
+	TIPO LÓGICO
+		Álgebra booleana - Verdadeiro ou Falso
+		1 ou 0
+		.Verdadeiro . V ou .S / .Falso .F ou .N [port estruturado]
+
+	VARIÁVEL
+
+	Incerto / Inconstante / Mutável / Instável 
+	Possui variações
+	Pode assumir qualquer valor 
+		dentro de um universo de dados
+	Deve ser definida/declarada
+		a fim de que seja alocado um espaço na memória
+		para correlacionar sua instância
+		na execução do programa
+	***variável pertence a um tipo de dado****
+	
+	* Em algumas linguagens de alto nível
+		não é necessário declarar
+			tipo de variável 
+			[o programa da linguagem já está configurado previamente
+			e associa o tipo da variável 
+			quando ela é instanciada na codificação]
+
+		*Nesse caso, no momento em que se define uma variável
+		essa já recebe sua declaração[tipo dado]
+
+	# REGRAS PARA DEFINIR NOME DE UMA VARIÁVEL
+	- um ou mais caracteres
+	- o primeiro caracter não pode ser número [nota1 e não 1nota]
+	- sem espaço em BRANCO
+	- não para nomes com palavras de variáveis reservadas
+	- atentar para caracteres especiais
+		há linguagens que não se usa
+
+	É interessante no momento da atribuição dela
+	que elas sejam intuitivas e não defini-las como X, Y e Z
+	Além de causar dificuldades no entendimento do código por outros
+		Após tempos sem mexer no código fonte, o próprio programador pode esquecer
+			aquilo que programou [retrabalho]
+
+
+

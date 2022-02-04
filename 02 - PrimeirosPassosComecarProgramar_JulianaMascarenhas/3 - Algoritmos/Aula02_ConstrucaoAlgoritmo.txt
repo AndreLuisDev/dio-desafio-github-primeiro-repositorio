@@ -1,0 +1,16 @@
+# COMO CONSTRUIR - FERRAMENTAS DE ALGORITMO
+
+# NARRATIVA
+	Utilização de linguagem natural e estruturada
+	Frases padrão
+		Cuidados com ambuguidades
+# FLUXOGRAMA
+	Modo visual
+	Deve-se conhecer símbolos e estrutura previamente
+		para montar algoritmos nesse padrão
+# PSEUDOCÓDIGO
+	Português estruturado - PORTUGOL
+	Passos a serem seguidos
+		Há símbolos e variáveis, porém
+		linguagem em português
+		SIMPLES E INTUITIVA

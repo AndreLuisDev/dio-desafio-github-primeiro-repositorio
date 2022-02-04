@@ -1,0 +1,42 @@
+# PARADIGMA
+	Como você resolve determinado problema, utilizando uma linguagem programação?
+
+	# PROCEDURAL
+		Chamadas sucessivas e procedimentos separados
+			Fortran, Lua
+
+	# ORIENTAÇÃO A OBJETOS
+		Possui um nível de abstração em que são definidos Objetos e Classes
+			Java, JavaScript, C++, Phyton, Lua
+
+	# FUNCIONAL
+		Novo paradigma
+		As instruçuções são baseadas em funções
+		Não é simples de ser implementada
+			Java, JavaScript, Phyton, Lua
+
+	# ESTRUTURADO
+		Alinha o código em blocos
+			Java, JavaScript, C, C++
+
+	# COMPUTAÇÃO DISTRUÍDA
+		Funções executadas de maneira independente
+			Ada
+
+	# LÓGICO
+			Java
+
+# ESTRUTURADO
+		LINGUAGEM C
+			amplamente utilizada
+			Enfatiza a sequência das instruções
+			Processo de decisão para Teste Lógico no programa
+			Iteração 
+				Funções, laços e condições
+			Mais simplista!!!!!!
+				Usado para problemas específicos e diretos
+				normalmente se aprende na fase escolar
+
+# OO
+	Reuso do Código
+	

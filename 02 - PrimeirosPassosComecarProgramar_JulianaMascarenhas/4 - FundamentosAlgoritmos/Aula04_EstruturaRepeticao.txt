@@ -1,0 +1,51 @@
+# Trechos Programa
+	Deve haver condições de parada a fim de não ficar em LOOP infinito
+	- utilizada
+		- reduzir linhas de código
+		- evitar o erro de digitação humana, mesmo pelo famoso "copia e cola"
+		- compreensão facilitada, código conciso
+		  
+	*** Enquanto ... faça 
+		Faz TESTE LÓGICO 
+			INÍCIO PROGRAMA
+			Número de repetições é indefinidas
+
+		Ex: cortar a grama enquanto estiver alta. 
+			Está alta? Cortar até baixar
+	
+	*** Repita .. até
+		Faz TESTE LÓGICO
+			FIM PROGRAMA
+		Número de repetições é indefinidas
+
+		Ex: Procurar um artigo numa revista, virar a página uma a uma
+			até que o conteúdo seja interassante
+			Pelo menos uma vez é executado a ação
+
+		Ex: 	multiplo = 3
+			result = 2
+			Repita
+				result = result*multipo(2*6)
+				Multiplo = result - 1
+			até 
+				(Multiplo == 0)
+		
+
+	*** para ... de ... até... [for]
+
+		Faz TESTE LÓGICO
+			INÍCIO PROGRAMA
+		Número de repetições DEFINIDAS
+		
+		Ex:Faz a execução de um estado até outro
+
+			somatorio = 0
+			
+			para inicio = 1 até 10
+
+			somatorio = somatorio + inicio
+			escreva somatorio
+			
+			fim para
+
+# É possível mesclar as estruturas condicionais

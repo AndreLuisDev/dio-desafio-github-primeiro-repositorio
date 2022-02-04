@@ -1,0 +1,80 @@
+# CONDICIONAL
+	
+	Quando o estado final da OPERAÇÃO não é atingido
+		devido a alguma INVERDADE/FALSO/alteração/desvio/fluxo de dados
+			Podem ser definidos caminhos altenativos para o fechamento da operação
+				caso algumas condições se satisfassam
+
+ 	# ESTRUTURA 
+
+		# SIMPLES
+			Caso a execução não se realize
+				é executado outra condição que será satisfeita
+					e a operação é executada
+
+		# COMPOSTA
+			Caso a execução não se realize
+				é executado outra condição e se esta nao for satisfeita
+						a operação é encaminha para outro fluxo alternativo
+							e por fim a operação é executada		
+
+		# ENCADEADA
+			Caso a execução não se realize
+				é executado outra condição e se esta nao for satisfeita
+					a operação é encaminha para outro fluxo alternativo
+						**[o passo a passo anterior pode-se ser repetido n vezes]**
+							CASO CONTRARÁRIO é encaminha para uma última instância
+								e por fim a operação é executada
+
+# OPERADORES DIFERENCIAIS
+	Utilizados dentro da estrutura condicional
+	= <> [diferente] > < >= <= 
+	cada tipo de LINGUAGEM DE PROGRAMAÇÃO
+		possuirá seus devidos operadores reservados, assim como suas palavras chave
+
+
+# SE/SENÃO
+
+	# CONDICIONAL SIMPLES
+		
+	Início Programa
+		Se (<condição>) então
+			<instruções para a condição verdadeira>		
+		fim_se
+	Fim programa
+
+
+	# CONDICIONAL COMPOSTA
+		
+	Início Programa
+		Se (<condição>) então
+			<instruções para a condição verdadeira>
+		Senão 
+			<instruções para a condição falsa>
+		fim_se
+	Fim programa
+
+	# CONDICIONAL ENCADEADA
+		
+	Início Programa
+		Se (<condição1>) então
+			<instruções para a condição verdadeira>
+		Se (<condição2>) 
+			<instruções para a condição2 verdadeira e condição1 falsa>
+		Caso Contrario
+			<instruções para condição 1 e 2 falsas)
+		fim_se
+	Fim programa
+
+# OPERADORES LÓGICOS
+
+	BOOLEAN 
+		AND Condiçao verdadeira e outra
+			A operação só será executada, SE ambas forem V
+
+		OR Condiçao verdadeira ou outra
+			A operação só será executada, SE pelo menos uma for V
+
+		NOT Condiçao verdadeira nenhuma nem outra
+			A operação só será executada, SE ambas forem F
+	

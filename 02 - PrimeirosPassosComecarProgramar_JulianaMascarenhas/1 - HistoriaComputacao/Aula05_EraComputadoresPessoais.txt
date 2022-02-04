@@ -1,0 +1,47 @@
+# O avanço do Hardware
+
+	Possibilitou a miniaturização dos dispositivos eletrônicos
+	compunham os computadores
+		Válvulas foram substituídas por TRANSITORES
+
+# 1975 Revista Popular Electronics
+	Apresentou a primeira versão de um mini computador
+		ALTAIR 8800 $1.000,00
+			chip intel 8080
+	Possivel inserir instruções por meio de codificação
+	sem interface (tela)
+
+# Willian (Bill) Gates e Paul Allen
+
+	Intuito de oferecer uma linguagem de programação
+	para a população - CRIAÇÃO DA LINGUAGEM BASIC
+	para mini computadores
+	Fundadores da MICROSOFT
+
+#1976 
+	Criação do Primeiro Computador Pessoal pela MICROSOFT
+
+#1977 Criação Apple II
+	teclado + tela + disket = amigável ao usuário
+	3 meses após lançamento - 4 mil vendas
+
+#1981 IBM-PC
+	inovador
+	OpenSource - Arquitetura aberta
+	
+# Apple III 
+	Impressora
+
+# LISA
+	Icones na tela + mouse - $10.000,00 sem sucesso
+
+# Avanços no Software e Hardware
+	A evolução da Ciência DA COMPUTAÇÃO é relativamente nova
+		cerca de uns 150 anos desde os estudos dos teóricos
+		até a criação dos primeiros computadores
+			Se comparada as outras Ciências.
+
+
+
+
+		

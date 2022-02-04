@@ -1,0 +1,87 @@
+# Alan Turing
+
+ - descoberta notável
+ - Pai da computação
+	Deduziu para o funcionamento de uma máquina de contagem
+	a maneira de raciocinar conforme pensamos
+		e o traduziu em um passo a passo chamado de Algoritmo
+	
+	Utilizando noções de computo, conforme a matemática se baseia
+		Formulações de situações problemas
+		Operacionalizando o pensamento humano
+		Por meio de uma máquina, instrumentalizou o pensamento teórico
+			através de um passo a passo:
+				Formulou e definiu o que chamamos de Algoritmo
+		Símbolos representavam operações
+			 e operações mudavam o estado da máquina
+				maquina Enigma
+
+# Projeto Delilab - EUA
+	Codificador de Voz
+		Alan Turing, Claude Shannon e outros pesquisadores
+			Estudos da aplicados para a eletrônica
+				 de dispositivos de portas lógicas
+		
+# Claude Shannon
+
+	Jorge Boolean fez o estudo da ÁLGEBRA BOOLEANA
+		Shannn estudou suas teorias
+		Verificou a vasta aplicabilidade dessa metrica
+		Ao pensar em utilizar nos Circuitos Eletronicos Digitais
+		(T or F - portas lógicas)
+
+	Publicou um artigo chamado A Mathematical Theory of Communication
+		- A Teoria matemática da comunicação  Julho 1948
+		- Baseado em métodos de modulação PCM e PPM
+			modulação de sinais de rádio (Nyquist e Hartley)
+
+#Von Newmann
+	atuou nas áreas
+		Construção Hardware
+		Arquitetura Computador
+		Programação
+		Computação Científica
+		Teoria Computação
+
+	Estudou o espaço de memória para armazenar Dados e Programas
+		chamada de ARQUITETURA DE VON NEWMANN
+
+	Ingressou para o NPL (National Phyfical Laboratory - Inglaterra)
+		Na tentativa de construir o primeiro computador digital
+			AUTOMATIC COMPUTING ENGINE - ACE (modelo piloto 1950)
+				Robusto (tamanho de salas) - eram máquinas computáveis à mão e fios
+#Alan Turing 1950
+	Será que máquinas podem pensar?
+		Introduziu a Inteligência Artificial 
+		artigo - Computing Machinery and Intelligence
+	
+		Interessou-se pela Programação
+		Percebeu que operações matemáticas poderiam ser representadas por operações de computo (computar - computador)
+			chamava isso de CODIFICAÇÃO
+		ou seja, notou que os princípios bases da matemática
+			poderiam ocorrer a nível do HARDWARE [portas lógicas e transitores]  (utiliza A. Bolean - o ou 1)
+			e que por meio desse lógica, TABELOU as operações matemáticas
+			LETRAS e DIGITOS, seguindo um padrão BINÁRIO, (com ou sem energia T ou F 0 ou 1), altera o estado da máquina
+			Ele nomeou essa tabulação de CODIFICAÇÃO
+				uma linguagem a nível de Hardware, em que de acordo com combinações saídas de portas
+				resultava em um símbolo (letra ou número)
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	

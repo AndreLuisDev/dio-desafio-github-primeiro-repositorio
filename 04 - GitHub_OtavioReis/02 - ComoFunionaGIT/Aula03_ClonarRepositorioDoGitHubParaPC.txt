@@ -1,0 +1,31 @@
+# Clonar Repositorio do GitHub para PC
+
+	1 - Possuir uma chave SSH configurada para a máquina
+
+	2 - Simplismente não deve ser somente copiado o link do repositorio
+		e usar o GitClone para clonar o repositorio
+		Por que: não pode copiar a URL, pois estaria copiando via https [outro protocolo]
+
+	3 - Protocolo SSH fixo da máquina deve ser usado
+
+	4 - Um repositório privado
+		não pode ser clonado
+		a menos que se peça a senha (normalmente seria requerido senha)!!!!!
+
+	5 - Para clonar um repositório
+		copie o caminho SSH do botão <Code>
+
+	6 - Insira o comando no Git Bash
+		$ git clone git@git.com:Andre/andre.github.io.git
+	# vale ressaltar que o comando anterior deve ser executado no terminal,
+		estando localizado dentro do repositorio em que se deseja clonar os dados
+			Ex: /c/Users/andre/ssh-teste
+			o arquivo será salvo automaticamente [sem sol. senha] aqui dentro!!!!!!
+
+	# para uma primeira vez que um "host" é copiado
+		será solicitado confirmar a operação com YES
+			o repositorio será copiado para a máquina
+		
+
+	
+

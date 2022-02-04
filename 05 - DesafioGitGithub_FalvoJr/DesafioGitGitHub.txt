@@ -1,0 +1,15 @@
+# Clone do Repositório
+
+	$ git clone https://github.com/AndreLuisDev/dio-desafio-github-primeiro-repositorio.git
+
+ *** clone a pasta para o repositorio
+	BootCampTakeBlipWebDeveloper
+
+ *** salvar os cursos já realizados dentro do prório repositório
+	dio-desafio-github-primeiro-repositorio
+
+ *** ir assistindo as aulas e COMMITANDO novos aprendizados
+
+
+	$ git add . ou git add -A
+		adiciona todos os novos arquivos/repo para ser comitados no repositório remoto

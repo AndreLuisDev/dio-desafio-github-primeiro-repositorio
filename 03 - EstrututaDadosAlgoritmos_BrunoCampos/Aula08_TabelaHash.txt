@@ -1,0 +1,32 @@
+# TABELA HASH
+
+	Espalhamento ou disperção
+	Associa VALORES [índice ou posição]
+		a CHAVES [informação] em um ESTRUTURA DA DADOS
+	Considera uma generalização do ARRAY
+			
+	#Função /hashing/
+		Espalha os elementos
+			Ficando não ordenados dentro de um ARRAY
+				chamada TABELA HASH 
+					elementos não ordenados em uma linha ou coluna
+					Sem ordenamento alfabético, crescente ou descrente
+						Não há classificação dos dados
+
+	VALOR
+		índice ou posição em que o elemento se encontra
+
+	CHAVE
+		parte da informação que compõe o elemento a ser manipulado (acessado)
+	
+	# chama-se o elemento 
+		pela conteúdo da CHAVE ou 
+		pelo conteúdo do VALOR
+		OU SEJA
+			A partir de uma CHAVE 
+				(informação a ser manipulada) 
+					pode-se saber rapidamente
+						a posição do ARRAY [índice]
+
+		Pelo conteúdo ou tipo de informação
+		Sabe-se onde está memorizada ou salva

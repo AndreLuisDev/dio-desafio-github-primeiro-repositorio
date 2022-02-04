@@ -1,0 +1,87 @@
+Algoritmo iniciante
+MINICRAFT ALGORITMO
+
+https://studio.code.org/s/mc/stage/1/puzzle/1
+
+Pseudocódigo (todos podem ler - sequência de passo a passo)
+
+https://www.proprofs.com/games/wolf-sheep-and-cabbage/
+
+	# Criar um pseudocódigo que explicque para alguém como resolver a travecia!
+
+PSEUDOCÓDIGO
+	Inicio Jogo
+	Ovelha entra barco
+	Barco atravessa
+	Ovelha sai barco
+	Barco atravessa
+	Repolho entra barco
+	Barco Atravessa
+	Repolho sai barco
+	Ovelha entra barco
+	Barco atravessa
+	Ovelha sai barco
+	Lobo entra barco
+	Barco atravessa
+	Lobo sai barco
+	Barco atravessa
+	Ovelha entra
+	Barco atravessa
+	Ovelha sai barco
+	Fim Jogo
+ATIVIDADE
+
+01 - Criar um pseudocódigo meu dia
+
+	Início
+	Despertador tocou
+	Acordei
+	Desabilitei despertador
+	Levantei com celular mão
+	Tirei pijama e coloquei cueca
+	Fui ao banheiro
+	Fui à cozinha
+	Preparei lanche
+	Peguei moedas
+	Fui ao quarto do filho
+	Peguei o dente
+	Coloquei moedas debaixo do travesseiro
+	Voltei a cozinha
+	Coloquei a farda
+	Peguei lancheira e chaves
+	Fui ate a porta a sala
+	Abri a porta, sai e fechei a porta
+	Fui até area servico
+	Peguei meu tenis
+	Fui ao portao
+	Abri o portao
+	Fui até o carro
+	Abri a porta do carro
+	Coloquei meu boot
+	Fechei a porta do carro
+	Liguei o carro
+	Sai de ré com o carro
+	Abri a porta do carro
+	Sai do carro
+	Fechei o portao
+	Tranquei o portao
+	Voltei até o carro
+	Fechei a porta
+	Dirigi até o serviço
+	Estacionei o carro
+	Desliguei o carro
+	Sai do carro
+	Fechei o carro
+	Abri o portao do serviço
+	Caminhei ate minha sala
+	Sentei
+	Escrevendo esse pseudocódigo.
+	Fim	
+
+02 - https://studio.code.org/s/mc/stage/1/puzzle/1
+	# resolver todos os problemas em menos de uma hora
+	# compartilhar instagram @digitalinnovation.one @denilsonbonatti
+	
+
+03 - https://rachacuca.com.br/jogos/pinguim-numa-fria/
+	# Criar um pseudocódigo que explicque para alguém como resolver a travecia!

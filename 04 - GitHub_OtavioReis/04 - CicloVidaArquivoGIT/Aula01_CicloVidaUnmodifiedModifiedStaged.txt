@@ -1,0 +1,67 @@
+# Ciclo de Vida dos arquivos dentro do GIT
+
+	# git init
+		cria a pasta oculta .git
+		inicia o conceito de repositório
+			cria um repositorio .git dentro de uma pasta que se quer "commitar"
+	
+		# criar dentro desse repositório um arquivo
+			strogonoff.md [untracked ainda]
+
+	# git add strogonoff.md ou git add * [para todos os arquivos dentro dessa pasta]
+		GIT vai rastrear esse arquivo para dentro da pasta .git/
+			e passar do estado Untracked para Staged
+		
+ # Estados do Arquivos do GIT 
+
+	São os estados que os arquivos dentro do GIT poderão assumir
+
+	 *Untraked* [não rastreados ainda pelo GIT]
+	
+		Quando um arquivo é criado/adicionado na pasta que será commitada
+			Ele passará do estado de Untraked (de quando não estava mapeado pelo GIT)
+				e irá para o estado STAGED (pronto para ser commitado se
+					mais nenhuma alteração for feita em cima do arquivo adicionado a pasta)
+
+		Quando um arquivo é criado/adicionado na pasta que será commitada
+			não sofre modificações e é removido da pasta
+
+	*Tracked* [rastreáveis pelo GIT]
+
+		Subdividiodos em:
+
+		*Unmodified*
+
+			Quando o arquivo que "não sofreu modificação" ainda [acabou de ser criado - strogonoff.md]
+				e passa para o estado "em edição"
+			ou quando é removido para fora da pasta que será commitada
+				precisa ser realizado novo processo de COMMIT para atualizar o repositório sem ele
+
+		*Modified*
+		
+			Quando sai do estado "não sofreu modificação" para "em modificação"
+				o GIT faz a comparaçao de SHA1's dos arquivos (sem mod e em mod)
+			Se for executado o $ git add *<arquivo>
+				passa para o próximo estado				
+
+		*Staged*
+
+			Quando o arquivo que está PRONTO (modificado) é commitado
+				versão final do arquivo
+			"atrás do palco - pronta para a ação"
+
+				$ git commit -m "mensagem"
+				
+				- as modificações são envelopadas, é dado uma significância
+				- o arquivo receberá uma mensagem
+				- um autor, data/hora
+				- integra tudo para um COMMIT
+
+			# após um git commit a versão final do arquivo retorna para
+				Unmodified para que o ciclo comece de novo
+
+
+				
+
+		
+

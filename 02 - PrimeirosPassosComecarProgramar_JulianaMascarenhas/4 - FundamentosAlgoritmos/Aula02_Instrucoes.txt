@@ -1,0 +1,34 @@
+# Uma vez que o PC precisa de dados e instruções
+	para executar uma programação que resolve uma solução
+	é necessário inserir esses no seu código fonte
+
+# INFORMAÇÃO
+
+		Composta por DADOS e as INSTRUÇÕES
+
+	INSTRUÇÕES PRIMITIVAS 
+
+		Em se tratando de Cálculos matemáticos
+		São necessárias tanto as VARIÁVEIS como as CONSTANTES
+		E essa operação ocorrerá por meio dos OPERADORES
+
+	# OPERADORES "primitivos"
+		São as propriedades matemática da 
+			SOMA SUBTRAÇÃO MULTIPLICAÇÃO DIVISÃO EXPONENCIAÇÃO etc 
+		cada operador possui uma ordem de prioridade de execução no programa
+		conforme a lei da matemática x / + e -
+		São do tipo:
+			BINÁRIO duas variáveis ou uma variável e uma constante
+			UNÁRIO inversão de valor 
+				+ para - ou - para +
+
+# INSTRUÇÕES
+	É a inserção sequenciada de um conjunto de PALAVRAS CHAVE
+		de uma determinada programação
+		no intuito de comandar um computador
+		TRATAR OS DADOS atribuídos previamente
+		(executa algum tipo de operação)
+
+	- PORTANTO 
+		cada linguagem de programação do computador
+		terá um tipo de notação (linguagem nativa da CODIFICAÇÃO)

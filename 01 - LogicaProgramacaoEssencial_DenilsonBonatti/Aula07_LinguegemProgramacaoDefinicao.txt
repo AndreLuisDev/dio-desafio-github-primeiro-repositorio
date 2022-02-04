@@ -1,0 +1,40 @@
+# O que é linguagem de programação?
+
+	É uma linguagem escrita de forma padrão
+	Contém um conjunto de regras e instruções
+	Capaz de executar programas (softwares)
+
+# Tipos Linguagem Programação
+	ALTO NÍVEL
+		Seu formato (SINTAXE)
+		Aproxima mais da linguagem humana e se distancia da linguagem da máquina
+			C, PHP, JavaScritp, C# (/SE CHARPI!/), C++, Phyton, etc
+
+	BAIXO NÍVEL
+		Aproxima-se mais da linguagem do Computador
+		Conhecer arquitetura de Hardware
+		Assembly
+
+
+	COMPILADAS
+	 	O código fonte é executado diretamente pelo SO
+		Processo chamado compilação
+			COMPILADOR: 
+			Pega o algoritmo e o transforma em código
+			Quando digita-se o código em C#, por exemplo.
+			Necessário executar o programa [conjunto de instruções inseridas no código C#] no SO
+			Transformar o arquivo em .exe [compilação = tradução em linguem de máquina]
+			Após é processado pela CPU ou SO
+			C#, Delphi, C++, Visual Basic	--> transforma-se a linguagem em um sistema executável
+							para ser rodada em um SO		
+
+	INTERPRETADAS
+		Código fonte [PROGRAMA FONTE] executado por um programa de computador
+		Chamada de INTERPRETADOR
+		Executada pela CPU ou SO
+		são executadas e interpretadas pelo Browser [navegador]
+		# Ao abrir um site, as linguagens programaçao 
+			[JavaScript, Pyhon, PHP{interpretada pelo servidor e depois pelo Browser em HTML} 
+		
+		
+		

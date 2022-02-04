@@ -1,0 +1,21 @@
+# TIPOS:
+		
+	# VETORES E MATRIZES (ARRAYS)
+			Auxiliam quando há muitas variáveis
+				MESMO TIPO no algoritmo
+			Ex: nome1, nome2, nome3, nome4, nome5
+				É inviável nominar toda essa quantidade
+				Nesse caso, um VETOR de cino posições reduz a digitação
+					Ex: nome[5]
+			
+	# VETOR ou array unidimensional
+		VARIÁVEL armazena variáveis MESMO TIPO
+			estrutura dados indexada -> 
+				ÍNDICES 0 a n posições
+
+	# MATRIZ ou array bidimensional
+		É um VETOR de VETOR
+		vetor x vetor ou NxM
+			VARIÁVEL armazena variáveis mesmo tipo
+				estrutura dados indexada -> 
+					ÍNDICES 0 a n posições

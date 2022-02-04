@@ -1,0 +1,75 @@
+# 1 - História evolutiva da linguangem de programação/paradigmas
+
+	SURGIMENTO DA LINGUAGEM
+		
+		1949 ASSEMBLY
+			linguagem BAIXO NÍVEL
+			linguagem de máquina ou montagem 
+				a nível de Hardware
+
+		DÉCADA 50 (ÉPOCA ENIAC)
+
+			Fortran COBOL LISP PASCAL - paradigma procedural/imperativo
+
+		DÉCADA 60 E 70	(1977)
+			C Prolog ML
+
+		DÉCADA 90 [linguagem ALTO NÍVEL]
+			Paradigmas atuais
+			Java Python Ruby C# JavaScript...
+
+		ANO 2000
+			Linguagens especiais
+			GO Rust Dart TypeScript...
+
+# 2 - Como o computador entende os comandos que digitamos?
+	
+	PROBLEMAS COMPUTACIONAIS!
+		São resolvidos a partir de algoritmo,
+			implementado em um COMPUTADOR,
+				por meio de uma CODIFICAÇÃO,
+				em que suas instruções resolvem determinado problema.
+			*** O problema computacional é mais fácil de ser resolvido
+				em um ambiente computacional
+	#TIPOS
+
+	- DECISÃO
+		Caracterizado pela determinismo, decidível!!!
+		É V ou F? 
+		Pertence a um universo de dados?
+		Caráter lógico - SIM ou NÃO
+		
+	- BUSCA
+		Está relacionado a uma busca binária
+		Necessita-se procurar algo / o dado em questão / possui um relacionamento binário com a informação
+		Ex: x está em A?
+
+	- OTIMIZAÇÃO
+		Minimizar ou maximizar uma função
+		N aplicações
+		Ex: Redução de custos
+
+
+ENTÃO...
+
+
+# 3 - O que é linguagem de programação?
+	Método padronizado 
+		composto conjunto regras
+			sintáticas semânticas de implementação
+				 de um CÓDIGO FONTE
+
+	[Conjunto palavras com regras/formas e significados]
+		implementadas no [CÓDIGO FONTE]
+			"lidas" pelo computador
+	
+	***cada linguagem de programção possui sua SINTAXE e SEMÂNTICA***
+
+
+			
+
+
+
+
+
+

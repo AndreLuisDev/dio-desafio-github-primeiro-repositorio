@@ -1,0 +1,25 @@
+# REGISTRO
+
+	- Fornece um formato especial
+		para armazenamento de dados
+			na ESTRUTURA DE DADOS
+
+	- Diferente dos ARRAYS
+		pode-se armazenar diferentes tipos de dados
+
+	- Composto por CAMPOS
+		números, caracteres, decimais
+			Ex: Bilhete passagem rodoviária
+	
+	- Registro de um Cliente
+		CPF, Nome, Endereço, Contato, ...
+	
+	- CONSULTAR DADOS DE REGISTRO NO ALGORITMO
+		Retornar um tipo de dado dentro do programa
+		Operador ponto " . "
+		Ex. Livro tem seus registros (nome, preço, autor...)
+			Consultar o preço - digitar - 
+			 **** livro.preco **** "pegue no livro o preço"
+
+
+

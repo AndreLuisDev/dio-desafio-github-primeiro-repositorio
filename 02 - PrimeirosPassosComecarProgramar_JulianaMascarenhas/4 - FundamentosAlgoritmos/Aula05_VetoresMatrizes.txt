@@ -1,0 +1,19 @@
+São estruturas homogênas que servem para determinar variáveis
+
+	# VETOR
+		é uma matriz unidimensional 
+		é o índice da posição o qual recebe um atributo ou um valor
+	
+	# MATRIZ
+		é da ordem de [vetor]x[vetor] NxM
+		é uma coleção de variáveis
+
+A matriz coopera para otimização da memória e o acesso a informação
+	- reduz as linhas de códigos
+	- Ex: 5 alunos de uma sala, obtiveram 4 notas e precisa ser sabidos suas respectivas médias.
+		nomear e declarar uma variável para cada aluno
+		bem como para cada nota, aumenta muito a codificação, demasiando as linhas de código
+		e causando lentidão num sistema grande.
+			SOLUÇÃO
+				matriz_alunos [6][6] (primeira coluna são os alunos, primeira linha notas, ultima coluna média)
+				 

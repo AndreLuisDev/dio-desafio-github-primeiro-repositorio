@@ -1,0 +1,10 @@
+# Organização e Planajemento de instruções
+	Assertivas descritas algoritmo
+	A fim de viabilizar a implantação de um programa
+	Que resulta no solucionamento de um problema
+
+# Cotidiano
+	Sequência instruções [ALGORITMO]
+	Completar um objetivo
+		EX: Tomar Café? passo a passo
+		

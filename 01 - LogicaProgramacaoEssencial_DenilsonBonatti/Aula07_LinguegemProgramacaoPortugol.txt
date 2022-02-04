@@ -1,0 +1,29 @@
+#Portugol
+	
+	Serve parar criar um pseudocógido
+	Forma estruturada, escrita em português SIMPLES/INTUITIVA
+	Pensar na solução sem antes pensar na forma de como criar a solução computacional
+
+
+#CONDICIONAL
+	SE(media<=7) {...} 
+	SENAO {...} 
+		não precisa declarar media novamente, pois se o SE não for VERDADEIRO,
+		será executado o SENAO
+
+	DESVIO DE CONDICIONAL - CASO (aula 08)
+		Quando há mais de duas opções
+			Um menu de opção e não apenas A ou B (se ou senao)
+		
+		Similar ao SE, nao é possível declarar operadores lógicos para o bloco
+		Apenas deve-se definir para cada opção do menu, vários SE's
+			SE escolha=1 (faça isso)
+			SE escolha=2 (faça isso)
+
+	
+
+# COMANDOS
+
+\n quebra de linha
+\\ comentário
+

@@ -1,0 +1,30 @@
+# LISTAS
+
+	Armazenam tipos de dados
+		ORDEM específica
+	Possuem tamanho ajustável
+
+	Arrays possuem tamanho fixo
+		De acordo com o ÍNDICE atrubuído no vetor
+		Devem ser inicializadas anteriormente no programa,
+	Já as LISTAS podem ser manipuladas ao decorrer do programa (ajustadas)
+		Vai recebendo valores e pode aumentar ou diminuir
+
+# LIGADAS
+
+	Existem Nós (como se fosse o índice/posição de um vetor)
+		que se associa a outro Nó
+		Cada NÓ conhece seu valor atribuído, bem como o valor do próximo NÓ
+		Os NÓS são amarrados com essa indicação (nó)
+		Primeiro nó, último nó, nó do meio
+		****LIGADAS sempre a UM PRÓXIMO VALOR****
+	
+
+# DUPLAMENTE LIGADAS
+
+	****LIGADAS a UM PRÓXIMO VALOR, COMO TAMBÉM A UM VALOR ANTERIOR**** (ida e volta)
+			Há a melhora na navegação de dados
+			Possui amarração para elementos posteriores e anteriores
+		
+
+

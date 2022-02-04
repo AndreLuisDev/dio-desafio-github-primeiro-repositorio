@@ -1,0 +1,40 @@
+# Características dos Programas
+	
+	#Legibilidade
+		Facilidade de leitura
+		Compreensão
+		Ortogonalidade (coerência na escolha das instruções)
+		Definição adequadas de estruturas
+
+	# Redigibilidade
+		Pode confilitar com legibilidade		
+		Ortogonalidade (coerência na escolha das instruções)
+		Simplicidade escrita
+		Suporte à abstração 
+			(consegue-se usar sub-rotinas, instruções, consegue-se modular o programa)
+		Reuso do código
+		Expressividade (usar determinados comandos/operadores: operador++, for)
+
+	# Confiabilidade
+		Fazer o que foi programado para ser feito		
+		Verificação tipos
+		Tratar exceções
+		Uso de ponteiros 
+			Na definição da variável, ela é alocada na memória!
+				Portanto, ponteiro é a referência da posição da variável na memória 
+		Compatibilidade de compiladores
+
+	# Custo
+		Análise de impacto
+		Treinamento
+		Codificação
+		Compilação
+		Execução
+		Intra-estrutura
+
+	# OUTRAS
+		Aceitação Mercado
+		Atualizações
+		Usar IA
+		Disponibilidade de ferramentas
+		Comunidade ativa para compreender o domínio da linguagem usada

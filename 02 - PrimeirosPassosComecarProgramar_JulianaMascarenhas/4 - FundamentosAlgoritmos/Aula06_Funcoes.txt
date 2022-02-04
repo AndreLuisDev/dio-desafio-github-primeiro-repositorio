@@ -1,0 +1,42 @@
+# FUNÇÕES
+	Altera o estado do programa
+	Reutilização de códigos evitando a redundância
+	Função, Subprograma, Bloco, Sub-rotina, Métodos(OO), Subalgoritmo
+	Recebe valores/dados e associa dados ao seu retorno
+	Realizam tarefas especificas
+	Decomposição do algoritmo / MODULARIZAÇÃO DO PROGRAMA
+		Podem ser utilizadas pelo PROGRAMA PRINCIAL
+			chamando a função
+				após isso a alocação de memória é desocupada*****************
+
+#	Por que não fazer tudo junto? 
+	Por que particionar o PROGRAMA?
+	- útil para reutilização de instruções mais de uma vez
+	- em diferentes pontos do programa, CHAMAR/INVOCAR a função
+		ao invés de COPIAR E COLAR O CÓDIGO
+			se copiou e colou o código e houve a necessidade de alteração
+			no trecho do código (na função)
+			será necessário "n" alterações (vai dar ERRO), uma vez que
+			fazendo sua modularização, facilita a alteração da FUNCÃO
+	- redução de linhas de código
+		claro e conciso LIMPO
+
+	# São blocos de funções identificados por 
+		nomes
+		quantidades
+		tipos de parâmetros
+
+	# PROCEDIMENTO PARA DEFINIR FUNCÃO
+		- defini-se o método desejado
+		- nome atreleda a ela que a especifica
+			não pode repeti-la, pois senão o programa(controlador)
+				chamará/invocará a função que foi declarada primeiramente
+		- A invocação serve para chamar a FUNÇÃO ao invés de reescrevê-la
+		- São atreladas variáveis locais [variável local]
+			para uma FUNÇÃO definida previamente
+			e somente são acessadas pela função que é chamada
+				Após, ela é destruída[encerrada] após a execução da função
+					liberando espaço de memória
+				* VARIÁVEL GLOBAL pode ser acessada por todo o código
+			
+	

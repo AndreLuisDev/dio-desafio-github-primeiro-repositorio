@@ -1,0 +1,3 @@
+# O & (E comercial) 
+ 	utilizado para fazer a concatenacao de duas variaveis 
+	para a saída de dados em uma única String no programam Flowgorithm

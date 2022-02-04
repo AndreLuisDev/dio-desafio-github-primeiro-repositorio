@@ -1,0 +1,116 @@
+# MERGE CONFLIT
+	- erro de mescla de arquivos 
+		quando contém diferentes conteúdos no servidor remoto
+	- o conflito é indetificado pelo GitHub quando se tenta empurrar um código para lá
+		porém quando já existe um versão mais recente no GitHub
+		 do que a sua versão [que está tentando ser salva remotamente]
+
+	- Nesse caso, é necessário abrir os arquivos e RESOLVER manualmente os conflitos existem
+		devido alterações feita no mesmo códigos/mesmas linhas
+	
+	$ git push origin main (empurrar uma versão que está desatualizada em relação ao GitHub)
+________________________________________________
+
+	CRIAR UM TOKEN NO GITHUB
+
+________________________________________________
+
+	$ git push -u origin main
+
+	Ao tentar empurrar, ocorrerá esse erro:
+
+
+To https://github.com/AndreLuisDev/livro-receitas.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/AndreLuisDev/livro-receitas.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+	SOLUÇÃO: "PUXAR" e resolver o conflite de merge
+
+	$ git pull origin main
+
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done
+remote: Total 3 (delta 1), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), 714 bytes | 64
+From https://github.com/AndreLuisDev/livro-re
+ * branch            main       -> FETCH_HEAD
+   dcee903..ab2191e  main       -> origin/mai
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.   <-- O GIT enumera o erro AQUI.
+Automatic merge failed; fix conflicts and the
+
+	
+	# ir até o arquivo e resolver o conflito MANUALMENTE
+
+
+	# O Erro é considerado em relação <<<<<<< HEAD até  <<<<<<< HEAD os sinais de  =======
+
+		ou seja, no meu pc local estava o conteúdo
+
+		  <<<<<<< HEAD
+
+		- Pavê
+		  =======
+
+		PORÉM NO GITHUB tem também
+
+<<<<<<< HEAD
+
+- Pavê
+  ======= [essas linhas a seguir]
+
+- Torta de frango
+
+- Pave
+
+>>>>>>> ab2191e00447910e7e75dd29489a1279281fb00d
+
+	# É NECESSÁRIO CORRIGIR ESSA DIFERENÇA E DEFINIR QUAL É A VERSÃO CERTA!!!!
+
+	$ git status
+	
+	On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   README.md <--- AMBOS ALTERADOS
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+	# AGORA É SÓ COMMIT O NOVO ARQUIVO
+
+	$ git add *
+	$ $ git commit -m "resolve conflito merge"
+	[main 11bb59a] resolve conflito merge
+
+	# PUSH - empurrar a nova versão sem conflitos de fato para o GITHUB
+
+	$ git push [pode ser apenas esse comando, pq eu já cadastrei o https anteriormente e já tenho o TOKEN ativo]
+
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 651 bytes | 651.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/AndreLuisDev/livro-receitas.git
+ab2191e..11bb59a  main -> main
+
+
+
+

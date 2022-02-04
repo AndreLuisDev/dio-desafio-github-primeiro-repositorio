@@ -1,0 +1,55 @@
+Uma vez que....
+	[Conjunto palavras com regras/formas e significados]
+		implementadas no [CÓDIGO FONTE]
+			"lidas" pelo computador
+			e cada linguagem de programção possui
+				sua SINTAXE e SEMÂNTICA
+
+# COMO O PC ENTENDE O ALGORITMO PROGRAMADO PELO DESENVOLVEDOR?
+	
+	CÓDIGO FONTE! 
+
+		precisa ser compreendido, TRADUZIDO
+		Pois a maioria das linguagens são feitas em ALTO NÍVEL
+		Nesse caso, o computador não consegue decodificar essas palavras sozinho
+			Para o Computador, o ALGORITMO é apenas
+				"amontoado de palavras"
+
+	***PROCESSO***
+
+		# TRADUÇÃO
+			
+			Linguagem Alto Nível	*****PROGRAMA FONTE*****
+				(códigos) --> 
+
+			COMPILADOR
+				(análises para existência de erros ou não) -->
+					Compilada e convertida para uma Linguagem de Baixo Nível
+						*****PROGRAMA OBJETO*****
+
+			ASSEMBLY --> passagem para linguagem hardware a partir de montadores
+
+			Há...
+				#GERAÇÃO DE PROGRAMA OBJETO
+				#EXECUÇÃO DO PROGRAMA OBJETO
+
+		# INTERPRETAÇÃO
+			# PROGRAMA FONTE EXECUTADO DIRETAMENTE
+				não há tradução!!!
+			O interpretador executa o programa fonte diretamente
+
+
+			#CONSIDERAÇÕES
+				Um PROGRAMA FONTE (.cpp -> C++) é compilado para PROGRAMA OBJETO
+					Se necessário Bibliotecas Externas
+					LINKER faz a chamada ddos arquivos e os traduzem para P.Obejto
+						O P.Objeto executado mais rápido
+							nível de hardware
+						Ex: Linguagem Tradução/Compilada
+							C++, Java
+			
+				Um PROGRAMA FONTE interpretado / executado mais LENTO
+					no entanto, permite-se uma maior flexibilidade de aplicações
+						e podem ser usadas (linguagens interpretadas) por programas menores
+						Ex: Linguagem Interpretada
+							Python, JavaScritp, Ruby

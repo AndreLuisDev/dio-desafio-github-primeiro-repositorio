@@ -1,0 +1,45 @@
+# Necessidade de se organizar DADOS na MEMÓRIA!
+
+	A organização deles é feita por meio de uma ESTRUTURA DE DADOS
+		para que se possa utilizá-los e manipulá-los corretamente
+	Podem ser salvos em
+		Pendrive, Nuvem, HD Externo...
+
+# ESTRUTURA DE DADOS
+	
+	As aplicações de software podem utilizar um ou vários tipos de estruturas de dados
+
+	Pode ser denominadas ESPECIALIZADAS
+		que executam tarefas específicas
+	É aplicada nos ALGORITMOS
+		Os dados inseridos dentro de um algoritmo
+			podem ser manipulados 
+				*****[Inserir, Excluir, Procurar, Classificar/Ordenar]*****
+				de uma maneira adequeda e organizada
+					chamada ESTRUTURA DE DADOS
+				
+		A ESTRUTURA DA DADOS
+			viabiliza serviços como:
+			BANCO DE DADOS
+			SERVIÇO DE BUSCA 
+			DATA MINING
+
+
+	# TIPOS:
+		
+	 	# VETORES E MATRIZES (ARRAYS)
+		# REGISTRO 
+		# LISTA 
+		# PILHA
+		# FILA
+		# ÁRVORE
+		# TABELA HASH
+		# GRAFOS
+
+
+
+
+
+
+
+

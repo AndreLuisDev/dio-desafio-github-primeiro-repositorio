@@ -1,0 +1,61 @@
+# Blasise Pascal
+	Primeira máquina SOMA e SUBTRAÇÃO (erros precisão)
+	Cálculos de impostos
+
+# Charles Xavier Thomas
+	1820
+	Arithmometer confiável
+	= - x /
+
+	Eram equipamentos que possuiam alguns requisitos para serem Computador
+	No entanto só se podiam inserir números [não eram possível inserir comandos]
+
+# Charles Babbage 1822
+	Protótipo não construído
+	Tinha a ideia de uma máquina com componentes que se podia ser programada
+	
+	1837
+	Máquina que possuia conjunto mutável de instruções
+	poderia executar diferentes funções a partir de novas instruções
+		CONCEITO DE SOFTAWARE
+			Conceito de programação
+			para executar funções pretendidas
+			por meio da codificação das instruções
+				símbolos, números e setas
+
+	# 1930 Alan Turing (pai da Ciência da Computação) retoma esse estudo
+
+# Ada Augusta Lovelace 1815-1852
+
+	Educada por De Morgan 
+	Primeira programadora e matemática
+		Criou instruções para um calculador analítico de Charles Babbage
+			instruções complexas: condicionais, loops, sequencia de instruções
+	É considera a Patrona da Ciência da Computação
+
+	Após anos, a máquina de Charles Babbage [Calculador Analítico]
+		construída em Museu de Londres
+			após analise dos estudos e anotações do pesquisador/teórico
+	
+# Herman Hollerith
+	19 anos
+	Funcionário United States Census Office
+	Criou um máquina de tabulação de dados - usada CENSO AMERICANO 1880
+		Hollerith Tabuleting Machines [ censo apurado de 7 anos para 2,5 anos]
+			Máquina de tabular com cartões perfurados
+				Era capaz de interpretar e classificar operações
+				representadas pelas perfurações
+		Ocorreu um "boom" no mercado, devido a criação de uma nova máquina
+		Após um longo período, Herman dominou o mercado de máquina de computar
+			A empresa criada por ele[Hollerith Tabuleting Machines] e outras 2 empresas
+			 Foram incorporadas pela empresa CTR = IBM atualmente
+		
+
+
+
+
+		
+
+
+
+

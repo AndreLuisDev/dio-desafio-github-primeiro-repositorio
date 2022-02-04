@@ -1,0 +1,50 @@
+# Análise executada dentro do COMPILADOR
+
+	# LÉXICA
+
+		Dentro de um conjunto de palavras existentes num idioma
+		O compilador irá verificar a existência de todas as palavras usadas no programa
+		
+			1ª FASE - PARTICIONAR
+			   O código é particionado em elementos, os quais são denominados TOKENS
+				
+			2ª FASE - CLASSIFICAÇÃO
+				Os TOKENS são classificados em:
+					# identificadores
+					# palavras reservadas
+					# números
+					# strings
+									
+			3ª FASE - ELIMINAÇÃO
+				Os TOKENS necessários são mantidos nessa etapa
+					ao passo que todo e qualquer conteudo que não interessa
+					para a execução do programa, será eliminado!!!!!
+					Ex:     caracteres 
+						espaço em branco
+						quebras de linha
+						comentários (úteis ao programador!!)		
+	# SINTÁTICA
+		A forma!!!
+		Erro de SINTAXE
+		Operadores e Comandos (funções)
+			interligam os elementos do código (dados)
+			e é feita uma atribuição na estrutura do código
+				avaliando se as operações estão escritas corretamente
+
+			O padrão de escrita depende da linguagem usada
+			Ex: print com parenteses, escreve (certo escreva)
+				ERRO NA ESCRITA DO CÓDIGO DEFINIDA PARA LINGUAGEM
+
+	# SEMÂNTICA
+		Significado
+		Verificar no programa se os símbolos utilizados estão corretos
+		ERRO DE SEMÂNTICA --> o programa não executa o esperado
+			Mais díficil de achar o erro, pois o erro não é apontado pelo COMPILADOR
+			[sintaticamente correto, mas semanticamente errado]
+
+****depuração do código para encontrar erros
+
+
+
+
+	

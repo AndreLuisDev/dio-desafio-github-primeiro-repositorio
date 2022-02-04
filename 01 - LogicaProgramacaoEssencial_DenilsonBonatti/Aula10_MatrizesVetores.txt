@@ -1,0 +1,51 @@
+#Matriz
+
+	Coleçao de variáveis do mesmo tipo
+	Não pode haver dentro de uma matriz
+		caracteres do tipo INTEIRO e CADEIA simultaneamente
+		ou um tipo ou outro
+	São acessíveis com unico nome
+	Armazenadas contiguamente na memória
+	cadeia Matriz[5][3] //declara uma matriz 5x3 posições
+
+#VETOR
+	
+	É uma MATRIZ de uma só dimensão ou tipo (ex: somente colunas ou posições)
+		cadeia Vetor[5] //declara um vetor de 5 posições
+	Portanto, a individualização de cada variável dentro de
+			um vetor ou matriz é por meio do ÍNDICE
+		cada variável possui um índice.
+
+
+#ÍNDICE [] 
+	sempre iniciado por 0.
+	É a linha e a coluna do elemento que eu quero ler.
+
+#Exemplo
+
+cadeia cesta[][] = {{"Maça,"100"},{"Pera","200"},{"Melão","300"}}
+
+//criando uma variável do tipo ALFANUMÉRICA com o nome de cesta
+	As chaves vazias serão identificadas automaticamente pela quantidade "itens"
+	Nesse caso são 3 elementos. Uma linha para cada
+	E nas colunas, suas respec qtes. 
+	Portanto, matriz 3x2!!!!!!!
+
+#Exemplo 2
+
+cadeia cesta[][]={{"Pera","100"},{"Jaca","200"},{"Maça","900"},{"Uva","89"}}
+		escreva("Produto: ")
+		escreva(cesta[3][0])
+		escreva(". Quantidade: ")
+		escreva(cesta[3][1]+ ".")
+
+Vai imprimir a fruta Uva - está na coluna 0 e na linha 3
+Vai imprimir a Qte 89 - está na coluna 1 e na linha 3
+
+      FRUTA   QTE
+       C0     C1
+L0  {"Pera","100"} 
+L1  {"Jaca","200"}
+L2  {"Maça","900"}
+L3  {"Uva","89"} 
+

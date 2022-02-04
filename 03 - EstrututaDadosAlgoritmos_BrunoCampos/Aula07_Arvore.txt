@@ -1,0 +1,40 @@
+# ÁRVORE
+
+	Elementos organizados de forma hierárquica
+	
+	Estrutura em RAIZ -> topo árvore
+		elementos subordinados
+			ficam nos NÓS ou nas FOLHAS
+
+	# BUSCA FACILITADA
+
+		O DELAY	de processamento da informação
+		numa estrutura da dado tipo VETOR
+			percorre SEQUENCIALMENTE
+				cada posiçao de um VETOR
+					Busca LENTA!!!!
+		
+
+	#FACILITAÇÃO DA BUSCA
+
+		- valores nominais colocados em ordem crescente em um VETOR
+
+		- se em ordem, [BUSQUE NO MEIO]
+			Algoritmo já vai eliminando valores a esquerda menores
+			quando não encontra o valor desejado
+		Ex: Quero o 32 num VETOR DE 7 posições {2, 8, 12, 15, 20, 23, 30}
+			15 para trás --> não está, pula para o 23
+			23 para trás --> não está, não retornará nada
+
+		- ÁRVORE
+			Em um conjunto de dados em um estrutura do tipo LISTA LIGADA
+				não é possível executar a buscar do tipo VETOR
+				Pois, em um LISTA LIGADA, cada elemento é um VETOR diferente ou Nó
+
+				Portanto, ao invés de os elementos serem colocados lateralmente
+				um após o outro, em uma LISTA LIGADA, opta-se
+				pela hierarquização de dados
+					em que a busca será efetuada em:
+						RAIZ
+						SUBRAÍZES
+						NÓS (folhas)

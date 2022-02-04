@@ -1,0 +1,21 @@
+# Por que estudar a historia da computação?
+
+ - Compreender dificuldades
+ - fundamentos da computação
+ - o processo de pensar
+
+# área de avanço cumulativos
+	baseada em pesqusa anteriores
+		a partir disso surgem novos paragidmas
+			novos hard - novos soft
+
+# Programaçao baseada na capacidade do Hardware
+	Objetivando minimizar esforcos e recursos = matemáticos (fórmulas do pesquisadores)
+	
+	Ábaco - primeiro dispositivo cálculo
+		até 12 inteiros (digitos 3 mil a.C.)
+
+	Quadrante - Babilônia - navegação século XVI
+
+# Ciência Computação
+	Surgirmento durante a guerra e teve um avanco exponeconial
