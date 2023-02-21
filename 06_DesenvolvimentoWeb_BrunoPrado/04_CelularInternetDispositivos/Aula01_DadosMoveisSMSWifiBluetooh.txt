@@ -1,0 +1,59 @@
+# SMS
+
+	mensagem de texto
+	custo zero para as empresas de telefonia!!!!
+	pois o SMS vai na portadora do sinal de confirmaçao entra EPIRB e Dispositivo Móvel
+		Ex: Era cobrado para que a empresa pudesse lucrar
+
+	***Com o advento da banda larga e planos de celular com tecnologia 3G/4G
+		esse serviço vem agora de fato gratuito, mas para isso querem fidelizar clientes
+
+# MMS
+	Tranmissão de mensagens multimídia [áudio e vídeo]
+	Necessita de uma banda de sinal um pouco maior, no entanto ainda se faz do sinal de confirmação
+		entre torres de sinais e celulares
+
+# CONEXÕES MÓVEIS
+
+	1G - 10Kbps - analógica
+
+	2G - 97Kbps - GSM - Global System for Mobile Communication
+		Ou conexão com a internet 
+		Ou chamada telefônica
+			dados ou voz
+
+	GPRS
+		2,5G - General Packet Radio System
+		32-80Kbps
+		Simultaneamente dados + voz
+
+	EDGE - "E"
+		Enhanced Data Rates for GSM Evolution
+		Taxa de Dados Melhorada para Evolução do GSM
+		2,75G
+		128-236Kbps
+
+	3G - 7Mbps
+
+	4G - 22,1Mbps
+
+	5G - 10Gbps
+
+# Wifi
+
+	IEEE 802.11 : 2,4 GHz, 2Mbps
+	IEEE 802.11a : 5 GHz, 54Mbps
+	IEEE 802.11b : 2,4Hz, 11Mbps (diminuição de interferência no sinal wi-fi)
+	IEEE 802.11g : 2,4 GHz, 54Mbps
+	IEEE 802.11n : 2,4 / 5 GHz, 150-600Mbps
+
+	# Protocolo de Segurança sistema Wi-fi
+
+	WEP: chave de 64 a 128 bit (senha)
+	WPA: chave trocada periodicamente
+	WPA2 (AES): IEEE 802.11i
+		- + segurança
+		- requer + processamento de dados
+		[mais lento]
+			mas é compensado pelo poder de processamento das placas
+			lentidão não é sentida

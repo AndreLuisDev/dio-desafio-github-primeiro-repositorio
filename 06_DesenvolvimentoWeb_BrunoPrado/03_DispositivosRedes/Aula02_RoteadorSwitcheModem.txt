@@ -1,0 +1,28 @@
+# MODEM
+	modulador-demodulador
+		dispositivo
+
+# ROTEADOR
+
+	Distribuir a internet para um ou mais dispositvos da rede
+		tipo "burro" - envia tudo para todos
+
+# SWITCH
+
+	Distribuir a internet para um ou mais dispositvos da rede
+		tipo "inteligente"- envia a informação dedicada
+	Ex: Email, Video, SSH - envia os pacotes de forma fidelizada
+		ocupa menos tráfego na rede
+______________________________
+
+portas SMTP e POP3 gmail
+
+Servidor de recebimento de e-mails (POP)	pop.gmail.com Requer SSL: Sim Porta: 995
+Servidor de recebimento de e-mails (IMAP)	Imap.gmail.com Requer SSL: Sim Porta: 993
+Servidor de envio de e-mails (SMTP)		smtp.gmail.com Requer TLS: Sim Requer autenticação: Sim Porta para TLS/STARTTLS: 587
+
+Portas MySQL [servidor de bancos de dados - DataBase]
+Apache [servidor de web - WS]
+
+Porta 3306 - MySQL
+Porta 80 - Apache

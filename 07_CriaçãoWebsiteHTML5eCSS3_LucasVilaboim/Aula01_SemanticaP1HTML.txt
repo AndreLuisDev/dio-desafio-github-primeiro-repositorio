@@ -1,0 +1,32 @@
+o elemento padrão do html era o <div>
+
+2014 - A versão 5 do html trouxe novos significados aos elementos
+
+<section> 
+    seção genérica de conteúdo
+        lista de artigos
+
+<header>
+    cabeçalho da página ou parte da página
+    pode ser um cabeçalho de uma <section>
+
+<article>
+    representa conteúdo relevante da página
+        Ex: Blog
+
+<aside>
+    representa um conteúdo relacionado ao assunto principal da página
+        Ex: Biografia de autores, links relacionados de pesquisas
+        REPRESENTADO POR UMA BARRA LATERAL
+
+<footer>
+    rodapé página ou parte da página
+    do <article> ou <section>
+
+<h1>-<h6>
+    não foram criados no html5
+    importância de um título numa página
+    h1 - título da página
+    h2 - título da section
+    h3 - título de um artigo
+    ***SOMENTE DEVE HAVER UM H1 POR PÁGINA***

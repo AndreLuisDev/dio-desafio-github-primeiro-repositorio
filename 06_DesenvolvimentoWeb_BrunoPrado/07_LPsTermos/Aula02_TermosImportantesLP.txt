@@ -1,0 +1,128 @@
+# Error 404
+	- página inexistente
+
+# ALT
+	- texto alternativo
+	- quando para o mouse em cima figura do site
+		- mostra descrição, indexão sites
+
+# API
+	- "peça lego"
+		- funcionalidades inseridos nos site
+			- para executar novas funções
+				- login do Facebook
+
+# Biblioteca ou dll
+	- conjunto de ferramentas
+		- acesso a banco de dados
+
+# Bootstrap
+	- framework
+
+# Breakpoints
+	- pontos chaves de construção de botões/menu nas posições das telas
+		- para determinados dispositivos que acessam a Internet
+			- Ex: celular, PC, TV, Tablet - diversas posições
+
+	- pontos de paradas para verificação de BUGS - "DEBUGS"
+		- verificação de saídas de variáveis
+		- resultados das funções / qual ponto
+
+# DEBUG
+	- debugar o site
+		- tentar descobrir o que causa o erro
+		- ou após finalizar a programação
+			- fazer análise do código, falha lógica, segurança
+
+# DEPLOY
+	- partes específicas de um software que são publicadas
+
+# Design adaptativo/responsivo
+	- site adapatado a qualquer tipo/proporção de tela
+
+# DNS
+	- tradutor nome site x IP
+
+# Domínio
+	google.com
+	uol.com.br
+
+# DPI
+	- proporção de pontos na tela
+		- maior pontos na tela
+			- maior a resolução
+
+# Favicon
+	- a esquerda do endereço do site
+	- figura que representa o site
+
+# Fontes
+	- letras ou código fonte do programa
+
+# Framework
+	- "caixa de ferramenta" 
+	- disponível para o desenvolvimento do software
+
+# GitHub / SVC / CVS
+	- versionamento do software
+
+# HTTP(s) 
+	- protocolo de comunicação mais usado na internet
+
+# META TAGS
+	- tags HTML
+		- dentro de READER
+		- funções específicas
+			- codificação do site 
+			- indexação do google
+
+# MVC
+	- model view controler - arquitetura de software
+		- model
+			- estrutura de dados
+		- view
+			- "parte da frente" - Front-End
+		- controler
+			- equipe LP
+
+# MVP
+	- Minimum Viable Product
+		- Mínimo Produto Viável
+		- disponilizar cliente ou testers
+			- básico para ser fornecido com funções
+
+# MySQL - usada em Banco de Dados
+
+# Resolução
+	- Quantidade de Pixel que a tela possui
+		- 1080p - número de linhas (nº colunas variável)
+		- 1080i - número de linhas intercaladas
+			(médias linha mediana(linha2) linha1+linha2+linha3)
+
+# SSL
+	- camada de segurança dos sites
+
+# UI
+	- user interface
+	- "cara do sistema"
+
+# UX
+	- user expirence
+	- como o usuário lida com o sistema
+		- 9s apple
+
+# VERSÃO
+	- não necessariamente o maior número é o útil desenvolvido
+	- 1.0 para 2.0 - grande mudança
+	- 2.0 para 2.1 - pequena mudança
+
+# WYSIWYG
+	- watch you see
+	- watch you guest
+	- o que você é o que você recebe!
+
+		- pequenos editores de textos embutidos nos sites
+			- coloca-se cores
+				- na hora de publicar ou print
+				- é exatamente o que se configurou
+

@@ -1,0 +1,25 @@
+# HTML (Linguagem de Marcação de HiperTexto) componente básico da Web
+
+# CSS (Cascading Style Sheet, ou Folha de Estilo em Cascatas)
+	utilizada na estilização de componentes escritos em linguagens de marcação
+
+********* HTML e CSS não são LP!!!
+
+# JavaScript
+	LP perminte implementar itens complexos em páginas Web
+	- mostra além de informação estática
+	- atualização em intervalos de t
+	- mapas interativos
+	- gráficos 2D/3D
+		**BIBLIOTECAS
+			JQuery - dinamicidade página
+			AJAX - consulta rápidas em DBase
+
+# PHP - manipulação de dados
+# .NET
+# ASP
+# Java
+# Ruby (on Rails)
+# Python - linux
+# Perl
+# C/C++/C# - orientação a objetos a baixo nível

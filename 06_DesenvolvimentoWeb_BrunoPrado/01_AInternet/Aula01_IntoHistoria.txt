@@ -1,0 +1,55 @@
+# HISTÓRIA DA INTERNET
+
+	- 1969 - EUA 
+	ARPANET - usada em laboratório do Dep. Defesa / Rede interna
+		ocorreu no contexto da Guerra Fria
+	- Primeiro e-mail enviado nessa época
+
+	- 1982 
+	Universidades receberam o sistema ARPANET para fins
+		laboratorial e pesquisas internas
+		Foi aplicada na Holanda, Dinamarca e Suécia
+
+	1987 - Uso comercial liberado na EUROPA
+		Empresas e corporações tiveram acesso a rede, exceto o público em geral
+
+	1992 - CERN cria a World Wide Web
+		- dados acessíveis a qualquer pessoa com acesso à rede
+			chamda de INTERNET
+
+	1988 - FAPESP, UFRJ e LNCC
+		Criam acordo para trazer a INTERNET ao Brasil
+			utilizada nas universidades
+
+	1994 - Liberação no Brasil
+		- EMBRATEL financiou para o uso comercial			
+		- Conexão Discada
+			- famoso "tom" da conexão "tin-ton tin-ton - modem"
+	
+	2000 - Banda Larga no Brasil
+
+1- qual foi o primeiro domínio criado?
+
+O primeiro domínio registrado foi o symbolics.com
+em 1985, por uma fabricante de computadores
+em Massachusetts, nos Estados Unidos.
+Nessa época, qualquer um poderia registrar
+um domínio gratuitamente
+
+2 - qual foi o primeiro blog criado?
+o primeiro blog da internet foi criado por um brasileiro em 1994.
+O cientista do MIT Media Lab, Claudio Pinhanez, criou um site chamado “Open Diary”
+
+3 - Qual foi a primeira compra feita na internet?
+
+O primeiro produto a ser vendido foi um CD do cantor Sting
+em 11 de agosto de 1994.
+O comprador foi um homem chamado Phil Brandenberger, morador da Philadelphia.
+No caso, o álbum era Ten Summoner's Tales, de 1993
+
+4 - qual o site mais antigo em atividade ?
+
+Em 1º de janeiro de 1985, a NORDUnet, uma espécie de agência internacional
+que conecta as redes nacionais de pesquisa e de educação dos países nórdicos
+criou o nordu.net. A entidade, sediada na Dinamarca, segue na ativa e o site também
+O primeiro "pontocom", por sua vez, foi o symbolics. com, de 15 de março de 1985.

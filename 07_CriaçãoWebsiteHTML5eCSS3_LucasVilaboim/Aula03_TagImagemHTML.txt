@@ -1,0 +1,26 @@
+# Tag Imagem
+
+	<img>
+
+    - src 
+        - Atributo obrigatório
+    
+        <img src="nomearquivo.jpg"> - imagem na mesma pasta do arquivo fonte html
+        <img src="CaminhoImagem/nomearquivo.jpg"> - em outra pasta
+        <img src="http://EndereçoSite/nomearquivo.jpg"> - em um site
+
+	- alt
+        - não é obrigatório
+        - altamente recomendado por melhorar a acessibilidade
+        - mostra a descrição da imagem caso ela não carregue 
+        - leitores de tela usam esse atributo para descrever a imagem para o usuário saber o que ela significa.
+
+        <img alt="Foto de Lucas Vilaboim">
+
+            - quando o caminho da foto estiver quebrado, informa no navegador para o usuário do que se trata o arquivo
+
+        ***DICA****
+
+        - Após escolhidas a fotos para serem publicadas
+        - Acessar o site tinypng.com
+            - Compressor de imagem jpeg e png

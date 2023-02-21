@@ -1,0 +1,36 @@
+# O que é um site e como ele interpreta a Internet
+
+	Como acessar a internet sem o Browser?
+		FTP, cmd
+	
+	O Browser é um programa que interpreta a linguagem de programação
+		- transforma algo compreensível para p/ humano
+
+	- interpreta LP, L. Marcação e Multimídia
+		- Plug-ins ou add-ons
+			Ex: Add-Blocker
+
+	- Cache
+		- ao entrar no site, deixa-se rastros da navegação
+			- arquivos [download's] - recarregar sempre não seria útil
+			- não busca no servidor e sim no computador local
+			- se desatualizado, faz verificação e baixa a ultima versão do site no pc
+	
+	- Cookies
+		- ao buscar um Tênis
+		- ao navegar outros site e redes sociais
+		- aparecem promoções do que vc havia pesquisado
+			- outros sites buscam essa informação no Cookies do seu pc
+				e faz uma navegação personalizada
+
+# Página Estática e Dinâmica
+
+	# A internet era "parada"
+		- clicks e redirecionamentos somente
+
+	# Na dinamicidade
+		- Ex: site Youtube atualmente
+
+https://archive.org/web/
+
+	- como eram antigamente os site mais famosos de hoje em dia

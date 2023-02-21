@@ -1,0 +1,67 @@
+# O QUE SÃO SELETORES
+
+    vc cria regra de estilo para grupo ou grupos de elementos
+
+    Uma regra CSS é formada por
+        um seletor ou grupo de SELETORES
+        Seletor: são as elementos HTML
+         
+         # SELETOR DE TIPO
+            a, p , h1, h3 {
+             color: blue --> PROPRIEDADE E VALOR
+             font-size: 14px;
+         }
+
+    # ID and CLASS
+
+        servem para especificar qualquer tipo de elemento HTML
+            sofrerá a alteração de estilo
+            é um especialização do elemento HTML
+                sites complexos demandam várias regras de estilo, para elementos do mesmo tipo
+
+
+            Dessa forma, declara um ID ou CLASS
+
+            Ex: <header> princial diferente <header> postagem
+
+    # ID no HTML é declarado pela palavra "id"
+    # CLASS no HTML é declarado pela palavra "class"
+
+    # No CSS, o ID é precedido por um "#" e só pode ser usado  UMA VEZ NA PÁGINA!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # No CSS, a CLASS é precedido por um "."
+
+
+# ADICIONAR style.css dentro do arq index.html
+
+    1 - declar no arq html o ID e CLASS do títulos e subtítulos
+
+    2 - Ir em style.css e alterar a aparência
+
+        - mudar a cor para um grupo de elementos
+            - #title, .subtitle, .post_title
+    
+    título principal - setado com o id="title"
+
+
+# CONCEITOS BÁSICOS
+
+    - Quando estamos trabalhando no layout de um site
+    - CAIXA RETANGULAR - BOX MODEL - modelo de CAIXA
+
+    # BOX MODEL
+        - é alterada a aparência no CSS3
+        
+        # MARGIN - margem
+            Espaçamento entre os conteúdos
+
+        # BORDER - borda
+            Circunda o padding + content
+
+        # PADDING
+            Espaçamento entre a borda e o conteúdo
+
+        # CONTENT - conteúdo
+            Texto, imagem ou vídeo representado no bloco
+
+# PRINCIPAIS SELETORES
+

@@ -1,4 +1,4 @@
-# Blasise Pascal
+# Blaze Pascal
 	Primeira máquina SOMA e SUBTRAÇÃO (erros precisão)
 	Cálculos de impostos
 
@@ -37,7 +37,7 @@
 		construída em Museu de Londres
 			após analise dos estudos e anotações do pesquisador/teórico
 	
-# Herman Hollerith
+# Herman Hollerith 1889
 	19 anos
 	Funcionário United States Census Office
 	Criou um máquina de tabulação de dados - usada CENSO AMERICANO 1880

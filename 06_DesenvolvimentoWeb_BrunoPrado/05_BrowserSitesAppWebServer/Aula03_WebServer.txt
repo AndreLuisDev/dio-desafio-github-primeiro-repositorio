@@ -1,0 +1,45 @@
+# Estático
+	Servidor Físico
+	Armazenamento de arquivos, softwares e Banco de Dados
+	Salas de Equipamentos redundantes
+
+# Dinânimo
+	Softwares presentes no Servidor Físico
+	
+	Tipos:
+		File Server - Arquivos
+		Application Server - Aplicações
+		DataBase - Banco de Dados
+
+	- Normalmente esses 3 tipos estão estruturados em um mesmo servidor físico
+	
+	- Site/Aplicações/BancoDados precisam estar hospedados em um servidor
+
+# Web-Service WS
+
+	Busca automática de dados - para preenchimento de campos/formulários de um site
+		- o site faz requisições automáticas a um banco de dados (WS)
+		- WS não é um aplicação rodada em pagina da Web
+			- sem prejudicar a integridade/segurança de site
+
+	Ex: Correios na busca e preenchimento automatico do CEP
+		- faz a requisão no WS dos Correios
+
+Exercício
+
+Como se dá o acesso ao web service dos Correios e Governo
+	para disponibilização dados de CEP e dados estudantis
+
+ - O acesso é dado por meio de uma API
+	- Interface de programação de aplicações
+		- feito contrato com o cliente
+		- que tem interesse em acessar esse banco de dados
+		- Acessa as funcionalidades julgadas em contrato
+		- protocolo de comunicação feito do HTTP
+			- SOAP e REST no formato XML - texto
+				- texto linguagem universal
+				- o código é transformado em linguagem de texto
+				- para respostas/retornos do WS ao site que faz a requisição
+- WS o que é e para que serve?
+
+	https://www.inoutway.com.br/web-service-o-que-e/

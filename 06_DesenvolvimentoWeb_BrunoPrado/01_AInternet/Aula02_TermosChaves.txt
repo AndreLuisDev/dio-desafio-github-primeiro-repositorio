@@ -1,0 +1,66 @@
+Host
+	É um servidor de domínio
+	Ex gmail.com 
+		Servidor que "domina"
+		Guarda/Armazena informações de relativas ao e-mail
+
+Html
+	Linguagem de marcação
+	Negrito, Itálico, Títulos, Sublinhados, Emoticons
+	Não é linguagem de programação,
+	 pois não associa funções, variáveis
+
+link
+	É o caminho
+	Ex: Quando é enviada a URL no WhastApp,
+		Cria-se automaticamente o link para o serviço necessário
+URL
+	É o endereço
+
+spam - "presunto"
+	email massivos enviados para muitas pessoas
+	associados a markting
+	encaminhados Lixo Eletrônico
+
+vírus
+	software malicioso
+	roubar senha, dados pessoais
+	# Keylogger
+		vírus malicioso que grava tudo o que digitado declado
+		registra nome usuário, senhas de bancos, etc
+
+
+	# phishing
+		"espécia de golpe"
+			no intuito de roubar dados de alguém
+			Ex: Email simulados de bancos, lojas, débitos em abertos
+				Com logos fiéis, bem construídos e ao clicar em URL ou baixar arquivos
+				sofrem a fraude!!!
+				Similar as ligações de fraudadores --'
+
+
+cookies
+
+	registro que os sites fazem em no nosso computador
+		relativo às pesquisas realizadas em sites durante a navegação
+	Nesse contexto, esse histórico pode de ser utilizado por ALGORITMOS de redes sociais
+		e criam um portifólio de anúncios com produtos/serviços
+		Ao verificar no histórico o tipo de produto/serviços
+		disparam requisições pelas internet, verificando ofertas desses produtos ativos
+		inclusive requisita em site de fornecedores parceiros que são CADASTRADOS em tal rede social
+			e a "mágica acontece" no feed de notícias
+
+firewall
+	"parede" intuito de impedir acesso malicioso
+
+Click bait
+	funçao maliciosa
+	- URL/links de notícias
+	- emails desconhecidos
+	Um simples email pode conter um função do JavaScript e danificar o funcionamento do PC
+	"caça cliks"
+		- geram LUCROS para quem cria esses links falsos
+		FAKE NEWS, possuem notícias falsas, milagrosas ou fotos emocionantes, catastróficas, CURA CANCER, etc
+		Ex: Jogador Famoso quebra perna e fica fora do campeonato, clique aqui e Veja Mais
+			- é clicado e não gera nada ou encaminha para um site fora do contexto
+		- Click é dinheiro/venda

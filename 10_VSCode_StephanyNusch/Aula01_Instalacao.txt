@@ -1,0 +1,38 @@
+# VS Code
+	
+	É um editor de texto para codificação com boas práticas
+
+	É a principal IDE para desenvolvimento em JavaScritp
+		- principais ferramentas
+# Instalação	
+
+# Recursos Básicos
+
+	- Lupa
+		Busca uma palavra chave dentro dos meus arquivos
+	- Source Control
+		Faz a integração com o GitHub
+	- word wrap column
+		Quebra de linha automática na linha tal
+	- Ctrl + p
+		Busca de arquivos
+	 Ctrl+ Shift+ P
+		mostra alguns comandos
+	- Settings
+		Verificar os atalhos do teclado
+	- Status do arquivo aberto e não salvo
+		Bolinha branca
+			Ctrl + S -> salva
+		Quando integrar com o GitHub -> muda de cor
+	- Função emmet
+		atalho para criar estrutura de código
+		boa prática para reduzir a digitação de estruturas de código
+			e otimizar a produção do código fonte
+			Ex: criar um estrutura em html
+				 A formatação já sai pronta no editor
+
+# Extensões e temas
+
+# Terminal e Git
+	É possível rodar o terminal dentro do VS Code
+	 e há a integração entre o VS Code e Git

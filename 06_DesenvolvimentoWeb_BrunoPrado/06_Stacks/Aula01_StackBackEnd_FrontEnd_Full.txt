@@ -1,0 +1,41 @@
+# STACK
+
+	Está relacionado com o arcabouço tecnológico que uma empresa possui
+		Quais são suas ferramentas de desenvolvimento
+			- sistemas operacionais usados
+			- LP de trabalho
+			- nível de segurança
+			- capacidade intelectual do pessoal
+			- nível de maturidade para liderança em projetos
+		- útil para a empresa se posicionar no Mercado de Trabalho
+			- verificar suas capacidades
+			- realocar-se com o ganho de tecnicos formados em determinada área
+			- pontos fortes de desenvolvimento
+
+
+	# Front-End
+		"Parte da Frente"
+		Interface do App ou Site com o usuário
+		Configuração Visual
+			+ por vezes é necessário saber consumir dados de API de um WS
+			[conhecer programação]
+		Interface do Usuário
+			User Interface e User Experience
+						posição de botões padrão de todo qlq site
+		Necessário saber LP, HTML, CSS (cores e estilos)
+		JQuery/JS/AJAX/PHP, Bootstrap/outros frameworks JavaScript
+
+	# Back-End
+		Parte de trás
+		Servidor, Banco de Dados
+			Até onde vai o domínio das duas áreas?
+				entre interface e DBase
+		Trabalha com négócios, validações
+		MySQL, Oracle, protocolos de comunicação, PHP, Java, node.js
+			*******JavaScript não surgiur a partir do Java
+				É uma linguagem script de FRONT-END	
+
+	# FULL STACK
+		Profissional que trabalha em todas as camadas de tecnologia de Desenvolvimento
+		 e execução de app/sw
+

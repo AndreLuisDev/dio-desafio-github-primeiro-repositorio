@@ -1,0 +1,61 @@
+# páginas
+
+	index.php e index2.php
+
+# Comunicação Browser e Apache
+
+	O navegador ou site apontará para uma pasta configurada
+		com o caminho escrito dentro do Servidor Web - Apache
+			C:/workspace/Dio
+	e irá procurar os arquivos .php; .perl, etc
+
+# TAGS HTML
+
+	"<br />" - quebra de linha
+	"<span class=\"linha\"> - cria o nome da classe = linha
+
+# Em PHP
+
+	- Há 3 formas de colocar a LM CSS dentro do código
+
+	1º - embutido dentro da própria TAG HTML
+		"<span class=\"linha"\>
+
+	2º - dentro da tag HTML <head>
+		com a TAG CSS chamda
+			<style type="text/css"> ... </style>
+	
+
+# SCRIPT 
+
+	Devem estar no final da página para não causar travamento
+
+	- código JavaScript
+		(document).ready
+
+		- colocado logo antes do fechamento da TAG </html>
+
+	- Usado em sites tipo preenchimento de formulário
+		- primeiro carrega-se a página e depois
+			roda-se o scrip do Java
+		- depois executa a função - alerta tipo pop-up
+	- depois do print das linhas (0,1,2...9) e formatação CSS (estilo)
+		- o pop-up aparece
+
+
+
+# Biblioteca
+
+	Tanto o script tipo java e o CSS não são nativos do Browser
+	- necessário importá-los
+
+	-> https://code.jquery.com/
+		jQuery Core 3.5.1, tipo minified
+			- tipo sufuciente para quase todos os sites
+
+
+	**enquanto a página fica "rodando"é por que ainda não chegou na TAG </html>
+
+
+	Tipo de Botões e Animações para o site
+		https://jqueryui.com/

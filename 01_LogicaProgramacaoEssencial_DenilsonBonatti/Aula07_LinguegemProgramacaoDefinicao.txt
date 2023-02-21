@@ -30,11 +30,15 @@
 
 	INTERPRETADAS
 		Código fonte [PROGRAMA FONTE] executado por um programa de computador
-		Chamada de INTERPRETADOR
-		Executada pela CPU ou SO
-		são executadas e interpretadas pelo Browser [navegador]
-		# Ao abrir um site, as linguagens programaçao 
-			[JavaScript, Pyhon, PHP{interpretada pelo servidor e depois pelo Browser em HTML} 
+			Chamada de INTERPRETADOR
+			Executada pela CPU ou SO
+			são executadas e interpretadas pelo Browser [navegador]
+				# Ao abrir um site, as linguagens programaçao 
+				JavaScript
+				Python
+				PHP
+				- interpretada pelo servidor web
+					- processada pelo Browser em HTML
 		
 		
 		

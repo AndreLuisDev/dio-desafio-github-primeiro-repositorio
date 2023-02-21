@@ -1,0 +1,28 @@
+# TAG LISTAS HTML
+
+<ul> <ol> <li>
+
+    - agrupa coleção de itens
+
+<ul>
+    - lista não ordenada
+    - ordem dos elementos não é importante
+        representada
+          pontos
+          círculos
+          quadrados
+
+<ol> 
+    - cria lista ordenada
+        - representada por 
+            números
+            algarismos romanos
+            letras
+
+<li> 
+
+    - um item dentro de uma lista
+    - Um <li> pode conter vários tipos de conteúdos
+        parágrafos
+        imagens
+        outras listas

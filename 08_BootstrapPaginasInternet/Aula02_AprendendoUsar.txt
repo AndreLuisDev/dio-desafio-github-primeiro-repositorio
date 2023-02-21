@@ -1,0 +1,40 @@
+# BootStrap
+   - após ter instalado no Framework no pc
+	- criado o repo no github
+
+PASSO A PASSO
+
+	1 - abrir no VSCode o repo bootstrap.5.1.2
+		dentro do C:/workspace
+	2 - renomear para bootstrap
+	3 - criar index.html
+		- Com as TAG's, UTF-8, pt-BR
+	4 - criar pasta CSS e dentro style.css
+		- linkar 
+			href="bootstrap/css/bootstrap.min.css"> biblioteca do arq.zip
+   		href="css/style.css"
+	5 - Para a criação da Barra de Navegação
+		- ir no site getbootstrap.com
+		- Docs
+		- Components
+			- Ex: Pegar o código html de 'Navbar' de minha preferência
+					- colocar no meu index.html
+					- uma vez que meu index.html aponta(link) para bootstrap.min.css
+						- o estilo do código html seguirá a formatação ja configurada no bootstrap.min.css
+						- caso neg terá um formatação simples de html
+			
+			- O bootstrap é um conjunto de componentes e seus respec-estilos
+
+		6 - olhar o index.html
+
+		7 - imagens no site PEXELS
+		
+		8 - a <div> vai criar uma divisão e aplicar o estilos
+				para as classes dentro dela
+
+		9 - classe ative - significa que o menu estaria selecionado
+
+
+
+
+

@@ -44,7 +44,7 @@
 # Von Newmann
 
 	EDVAC - Eletronic Discrete Variable Automatic Computer
-	Versão melhora do ENIAC
+	Versão melhorada do ENIAC
 		continha a idea do PROGRAMA ARMEZENADO
 	Foi usado a partir de 1954 e o ENIAC desligado em 1955
 

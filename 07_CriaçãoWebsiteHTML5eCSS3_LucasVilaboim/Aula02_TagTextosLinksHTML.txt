@@ -1,0 +1,25 @@
+# Tag Textos
+
+	<p> Usada para textos densos </p>
+
+	- "p" representa parágrafo
+	- suporta
+		textos, imagens, vídeos, código
+
+# Tag Liks
+
+	<a>Link</a>
+
+	- "âncora"
+    - ele representa um hyperlink para onde a página estará apontando
+        - href="mailto:" ou "tel:" para email e telefone
+    - interliga vários conteúdos e páginas na web
+    
+    - Atributos da TAG
+
+        href = indica o endereço
+
+        target = indica como o link será aberto
+            -"_blank" -> significa abrir o link em uma nova aba
+
+     

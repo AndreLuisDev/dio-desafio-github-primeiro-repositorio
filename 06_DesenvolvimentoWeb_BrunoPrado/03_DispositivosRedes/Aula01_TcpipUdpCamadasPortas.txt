@@ -1,0 +1,65 @@
+# TCP/IP
+
+	Protocolos de comunicação entre dispositivos de uma rede de internet
+
+	- Transmission Control Protocol - Protocolo de Controle de Transmissão
+	- Internet Protocol - Protocolo de internet
+
+	Os dados devem ser transmitidos de forma ordenada e formatados
+		- cabeçalho
+		- origem/destino
+		- conteúdo
+
+# MODELO DE CAMADAS
+
+	Para que os dados sejam trafegados, necessário que eles passem por 4 CAMADAS
+
+	1_Física - via/qual tipo de conexão
+		placa de rede
+		placa wireless
+
+	2_Rede - precisa haver uma rede configurada por um número identificador
+		IP
+		ARP
+		ICMP
+		IGMP
+
+	3_Transporte - tipo de transporte utilizado
+
+		TCP
+		 Foco na conexão
+		 Envolve os pacotes de informações por meio de um cabeçalho
+			Porta In/Out
+		 Há a confirmação do recebimento da informação
+			conexão mais lenta
+		 Handshake - "conversação entre os dispositivos para confirmar o link"
+			o que se envia, pra quem, o que, quem recebe
+		 Integridade, ordem dos dados enviados
+			cronologia no envio dos dados
+				Aplicativo de mensageria
+
+		UDP
+		 Rápida transmissão - disparando a informação
+			Live,Youtube Ao Vivo, Jogos Online, Skype
+			não é necessário a confirmação de recebimento do usuário
+		 Por conta da não confirmação, é uma conexão não confiável
+
+	4_Aplicação - finalidade
+		FTP [envio de arquivos]
+		SMTP ou POP3 [servidor de email]
+		HTTP [requisição de sites]
+		SNMP
+
+# PORTAS
+
+	Port = Porto
+		"embarcação - ancorar no pc"
+
+	Entradas e saídas de dados
+	
+	Porta 20: FTP [transferências de arquivos]
+	Porta 22: SSH [conexão segura entre pc para executar comandos]
+	Porta 25: SMTP [envio de email]
+	Porta 53: DNS [tradução de nome site e IP]
+	Porta 80: HTTP [requisição de sites simples]
+	Porta 443: HTTPS [requisição de sites seguros]

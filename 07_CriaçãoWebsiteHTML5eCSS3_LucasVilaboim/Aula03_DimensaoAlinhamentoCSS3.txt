@@ -1,0 +1,31 @@
+width
+    largura em pixels ou % que a página irá assumir
+
+height
+    altura em pixels ou % que a página irá assumir
+
+     - dentro de uma largura de 900px, o conteúdo assumirá 100% da ocupação da largura
+
+max-width
+max-height
+
+    máxima largura e altura que a página assumir
+       - tendo em vista os diferentes tamanhos de telas do dispositivos
+       - quando a tela for menor que o conteúdo, esse ficará escondido, criando barras de rolagem.
+        Dessa forma, é importante configura o max-width e max-height.
+
+        
+
+    
+
+margin
+
+    espaçamento entre os conteúdos
+        com valor AUTO
+            margin: auto;
+                serve para deixar o alinhamento esq e direito iguais e proporcionais a depender do tamanho da tela do dispositivo que acessa o site
+
+text align
+
+    left, center, right, justify
+

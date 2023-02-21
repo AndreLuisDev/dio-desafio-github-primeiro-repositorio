@@ -1,0 +1,29 @@
+1 - Redes
+
+	Conexão entre os dispositivos
+
+2 - Backbone
+
+	Espinha dorsal
+	Estrutura física disponibilizada por grandes provedores (Ex: telefonia)
+		Como a Embratel e a OI no Brasil, Rede Ipe da RNP (pesquisas)	
+		ofertam a infraestrutura para que as organizações se conectem entre si e à Internet
+
+3 - Provedor de acesso
+	- empresas contratam o sinal da internet e repassam o sinal para empresas e usuários finais		
+
+4 - Provedor de serviço
+	As provedoras dos Backbones, também oferecem tipos de serviços para conexão com a Internet
+		- Dial-up -> Discada
+		- ADSL (banda larga)
+		- Fibra optica
+		- Rádio
+		- Via Satélite
+		- Móvel
+		- P2P - conexão entre dois dispositivos não necessariamente conectado a Internet
+_________________________
+www.google.com
+DNS (Domain Name Service)
+IP
+Classes de rede (A,B,C,D,E)
+127.0.0.1 (local host)

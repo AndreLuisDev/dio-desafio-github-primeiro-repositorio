@@ -1,0 +1,61 @@
+# SITE
+
+	página da internet
+		entretenimento
+		divulgação informação
+		blogs
+		site pesquisas indexadas(google)
+		podem ser feitas em varias LP
+
+	D/XHTML
+		- HTML está caindo em desuso
+			- site estático
+				oferta apenas formatação
+					Cor, Tamanho Fonte, link e figuras
+		- É uma especialização do HTML
+			deixando a página mais dinâmica
+
+
+# APLICATIVO
+	- Software executado no navegador
+	- App é uma espécie de um navegador
+	- Youtube 
+		No início era só um site
+		Hoje é um App no celular
+			- como se fosse um link do site Youtube
+
+	- Facebook do celular
+		App é um link do Facebook
+
+	- APP == SITES
+		Aplicativos são pequenos softwares que rodam no navegador
+			- editor video/imagem, bate papo - ONLINE
+
+		- Hoje em dia, vê-se menos sites rudimentares
+			e vê-se mais sites com função de App
+
+	- PROGRAMA/SOFTWARE/SITE == APLICATIVO (conotação)
+		- sites são app's
+		- programas são app's
+			- chamamento está mudando
+			- mesmo significado geração atual
+
+# E-COMMERCE
+
+	- comércio eletrônico
+		sites de compra e venda com sistema de pagamento
+
+	- o sistema de pagamento pode ser externo ao site
+		- PicPay, PagSeguro, PayPal, Mercado Pago
+
+	 - não é um sistema nativo do próprio site que conduz o sistema de pagamento
+		- fica a cargo dos sistemas externos
+
+- infográfico de como são feitas as transações de pagamento em outros países
+
+	https://www.adyen.com/pt_BR/blog/infografico-como-as-pessoas-pagam-ao-redor-do-mundo
+
+- Boleto só há no Brasil
+- Débito/Crédito existem em diversos países
+- Hoje em dia o sistema de pagamento dos sites
+	são sistemas externos de pagamento conforme mencionado anteriormente

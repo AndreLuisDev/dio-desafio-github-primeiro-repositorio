@@ -1,0 +1,73 @@
+# Apache
+
+https://www.youtube.com/watch?v=Cofr5_Dkb7E
+
+	A principal função do Servidor Web (Apache)
+		- processar requisições de sites feitas via HTTP
+		- Ao navegar, estamos navegando pelo protocolo HTTP
+		- e dentro do HTTP podem ser pedidos arquivos HTML
+		 - esses arquivos são fornecidos pelo Servidor Web
+			- imagens, estilos e scripts
+	- o sites são fundamentalmente páginas HTML
+	- 92% dos Servidores Apaches são instalados no Linux
+
+# MySQL
+
+https://www.youtube.com/watch?v=Yd4xJbMfM5k
+https://www.youtube.com/watch?v=zOU6OzyT-g
+https://www.infoescola.com/informatica/mysql/
+https://www.techtudo.com.br/noticias/2012/04/o-que-e-e-como-usar-o-mysql.ghtml
+	mMYSQL --> MariaDb
+
+https://www.hostinger.com.br/tutoriais/o-que-e-mysql
+	
+	https://dev.mysql.com/downloads/mysql/ - VERSÃO SERVIDOR
+		- MySQL Community Server 8.0.28 
+
+	https://dev.mysql.com/downloads/workbench/ - VERSÃO CLIENTE
+		- MySQL Workbench 8.0.28 
+
+	- sistema de manipulação/controle de dados
+	- sistema de banco de dados
+	- sistema de gerenciamento de banco de dados
+	- *** usa a linguagem SQL
+	- Open Source
+		- versões servidor/cleinte
+	- Também possui versão paga Premmium Oracle
+	- O MySQL é um sistema gerenciador de banco de dados relacional
+		- código aberto 
+		- usado na maioria das aplicações gratuitas
+		- para gerir suas bases de dados
+		- utiliza a linguagem SQL - Structure Query Language
+			- Linguagem de Consulta Estruturada
+			- linguagem mais popular para inserir, acessar e gerenciar
+				- conteúdo armazenado num banco de dados
+	- Primeiramente foi desenvolvida pela SUN MicroSystem
+		e posteriormente foi adquirida pela empresa Oracle
+			ainda possui seu próprio sistema de base de dados
+
+	
+# PHP
+
+https://www.youtube.com/watch?v=UCIZfVKmXNU
+
+	- linguagem de programação considerada um Script
+		- LP interpretada e não-compilada
+		- pega-se o código-fonte PHP
+			- interpretada no servidor web (linguagem programação web)
+			- traduzida para Binário
+			- processada pelo Brownser em HTML
+				- forma rápida
+			- PHP x Astah
+			- Versão 4.0 em diante - orientação a objetos
+			- O PHP "roda por debaixo" do Servidor Web Apache
+				- interpretando todas as estruturas de comando
+				- lendo o Bando de Dados MySQL
+				- e resolvendo em HTML no Browser de quem faz a requisição do site
+			- cria conteúdo dinâmico
+
+			- Ambiente de desenvolvimento LAMP
+				CSS, HTML, JavaScript, MySQL, Apache
+
+				
+		

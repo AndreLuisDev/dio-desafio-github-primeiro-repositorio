@@ -1,0 +1,13 @@
+# BootStrap
+    Framework desenvolvimento site responsivo
+        mantém a forma para diversos tamanho de telas
+    - possui bibliotecas
+    - mais conhecido e usado front-end
+    - arquivos do tipo
+        Bootstrap.min.css ocupam menor espaço no site
+        O carregamento fica mais rápido
+
+    - criado um reposiório https://github.com/AndreLuisDev/PaginaInternetBootstrap.git
+
+    - clonado para o pc para depois ser commitado
+    

@@ -1,0 +1,162 @@
+# ELEMENTOS
+
+    Eu posso editar o estilo para elementos do HTML, bem como para o id e classes que forem criados
+
+
+    # .post - classe
+
+        *PADDING
+
+            padding: 10px;
+
+                foi dado apenas 1 atributo nessa parte do BOX MODEL     
+        
+        - é possível melhorar isso:
+
+                1º MODO
+                padding:Ypx Xpx
+                        Superior/Inferior
+                        Esquerdo/Direito
+
+                2º MODO
+                padding:Spx Dpx Ipx Epx
+                        um valor para cada lado
+                         Superior/Direito/Inferior/Esquerdo
+                * quando o valor da dimensão for de 0
+                    não é necessário declarar a unidade
+
+                3º MODO
+                padding-top: xxpx
+                padding-right:xxpx
+                padding-bottom:xxpx (Inferior)
+                padding-left: 0
+                * usando quando se há 3 lados iguais e só 1 diferente
+                
+        * BACKGROUND
+
+            background-color: green;
+            background-image:   url("img.png");
+            background-position: top;
+
+            *estudar em Mozila Developer Network
+                https://developer.mozilla.org/pt-BR/docs/Web/CSS
+
+            * para mudar a cor, pode ser digitado
+                background-color ou apenas background
+                    com o atributo da cor em inglês ou HEXA
+
+        * BORDER
+
+            possui 3 valores com seus respectivos atributos
+
+            largura: px, cm, mm
+            estilo: sólida, tachada, pontilhada, etc
+            cor: inglês ou HEXA
+            
+
+            * a BORDER pode ter suas derivações de posição+estilo
+        
+            border-top: 2px dotted green - pontilhada
+            border-right: 4px dashe pink - tracejada
+            border-bottom: 1px solid purple
+            border-left: 4px dotted cyan
+
+            * a BORDER pode ter suas derivações de estilo específicos
+
+                - sendo usado com a propridades específicas
+
+            border-width: 3px
+            border-style: solid
+            border-color: hexa
+            
+
+                - sendo usado com atalho
+
+            border 3px solid hexa
+
+                - sendo usado com regras+subregras
+                    - mais específicas
+
+            border-top-width: 3px
+            border-top-color: hexa ou ingles
+            border-top-style: solid
+
+
+        * BORDER RADIUS
+            para o arredondar quantos
+
+            border-radius: pixel ou porcentagem
+
+                * segue por defaul
+
+            border-radius: 10px ou 50%
+
+            border-radius: 10% 20% 15% 22%
+
+                * 50% - consegue tornar circular uma imagem quadrada
+
+
+    *DISTANCIA ENTRE IMAGEM E TEXTO
+
+        Ao inves de se colocar uma margem no topo do conteúdo (TEXTO), é uma boa prática colocar todas as margens na mesma direção
+
+        - se quer colocar um BOM espaçamento entre elementos, para que o site fique simétrico
+            - escolha espaçamento somente acima ou somente abaixo!!!!
+
+
+# TEXTOS
+
+    font-family - altera a fonte do TEXTO
+    Web-Safe-Fonts
+        fontes de full do pc
+
+    font-size - altera o tamanho 
+
+    font-style - altera a aparencia do texto
+        normal, italic
+            a fonte tem suporte ao itálico? do contrario fica feio
+
+    font-weight - altera o peso da fonte
+            - normal ou bold - negrito
+
+    text-transform - alternancia em CX alta e CX baixa
+            - uppercase, lowercase and capitalize (todas primeias CX alta)
+
+    text-decoration - linhas
+            - underline, overline or line-through
+
+# LISTAS
+
+    para alterar o marcador das LISTAS, utiliza:
+
+        list-style-type
+
+        tanto ta <ul> e <ol>
+
+            MARCADORES NÃO ORDENADOS 
+
+        ul {
+
+         list-style-type: square;    
+
+        }
+
+        ul {
+
+            list-style-type: \1F44D (EMOJION JOINHA);    
+
+        }
+
+        ul {
+
+        list-style-image: url(rocket.png);    
+
+        }
+
+    * lista de contatos isolados da lateral esquerda, pois o navegador coloca margem e padding padrão
+        É possível zerar isso
+
+        
+
+
+

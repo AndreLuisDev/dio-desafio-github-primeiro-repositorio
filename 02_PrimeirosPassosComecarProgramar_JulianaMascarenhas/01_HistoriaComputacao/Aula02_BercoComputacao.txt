@@ -24,7 +24,8 @@
 		
 # Claude Shannon
 
-	Jorge Boolean fez o estudo da ÁLGEBRA BOOLEANA
+	George Boole (1854 Estudo sobre as Leis do Pensamento)
+		 e fez o estudou a ÁLGEBRA BOOLEANA
 		Shannn estudou suas teorias
 		Verificou a vasta aplicabilidade dessa metrica
 		Ao pensar em utilizar nos Circuitos Eletronicos Digitais

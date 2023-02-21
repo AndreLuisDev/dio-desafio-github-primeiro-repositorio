@@ -1,0 +1,11 @@
+# acessar o site
+	https://htmlcolorcodes.com/
+		pegar os códigos das cores HEXA
+
+
+- class="container"
+	cria uma parte na esq/direita
+
+- class="container-fluid"
+	pega a página inteira, sem margem!
+
